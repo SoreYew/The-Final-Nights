@@ -50,6 +50,11 @@
 	damage = 23
 	armour_penetration = 10
 
+/obj/projectile/beam/beam_rifle/vampire/vamp9mm/rubber
+	name = "9mm rubber bullet"
+	damage = 3
+	stamina = 16
+
 /obj/projectile/beam/beam_rifle/vampire/vamp45acp
 	name = ".45 ACP bullet"
 	damage = 24
@@ -60,6 +65,11 @@
 	armour_penetration = 0
 	bare_wound_bonus = 5
 	wound_bonus = 5
+
+/obj/projectile/beam/beam_rifle/vampire/vamp45acp/rubber
+	name = "45 acp rubber bullet"
+	damage = 3
+	stamina = 15
 
 /obj/projectile/beam/beam_rifle/vampire/vamp44
 	name = ".44 bullet"
@@ -107,6 +117,19 @@
 	armour_penetration = 15
 	bare_wound_bonus = 10
 	wound_bonus = 5
+
+/obj/projectile/beam/beam_rifle/vampire/rubber
+	name = "12g shotgun rubber shot"
+	damage = 5
+	stamina = 20
+
+/obj/projectile/beam/beam_rifle/vampire/incap
+	name = "12g shotgun incapacitation shot"
+	damage = 20
+	stamina = 60
+
+/obj/projectile/beam/beam_rifle/vampire/vamp12g
+	name = "12g shotgun slug"
 
 /obj/projectile/beam/beam_rifle/vampire/vamp12g/on_hit(atom/target, blocked = FALSE)
 	. = ..()
@@ -181,6 +204,13 @@
 	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp9mm/plus
 	caliber = CALIBER_9MM
 
+/obj/item/ammo_casing/vampire/c9mm/rubber
+	name = "9mm rubber bullet casing"
+	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp9mm/rubber
+	caliber = CALIBER_9MM
+	icon_state = "9r"
+	base_iconstate = "9r"
+
 /obj/item/ammo_casing/vampire/c45acp
 	name = ".45 ACP bullet casing"
 	desc = "A .45 ACP bullet casing."
@@ -191,6 +221,12 @@
 
 /obj/item/ammo_casing/vampire/c45acp/HP
 	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp45acp/HP
+
+/obj/item/ammo_casing/vampire/c45acp/rubber
+	caliber = CALIBER_45
+	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp45acp/rubber
+	icon_state = "45r"
+	base_iconstate = "45r"
 
 /obj/item/ammo_casing/vampire/c44
 	name = ".44 bullet casing"
@@ -260,6 +296,22 @@
 	pellets = 8
 	variance = 25
 
+/obj/item/ammo_casing/vampire/c12g/rubber
+	name = "12g shell casing"
+	desc = "A 12g shell casing."
+	caliber = CALIBER_12G
+	projectile_type = /obj/projectile/beam/beam_rifle/vampire/rubber
+	icon_state = "12r"
+	base_iconstate = "12r"
+
+/obj/item/ammo_casing/vampire/c12g/incap
+	name = "12g shell casing"
+	desc = "A 12g shell casing."
+	caliber = CALIBER_12G
+	projectile_type = /obj/projectile/beam/beam_rifle/vampire/incap
+	icon_state = "12i"
+	base_iconstate = "12i"
+
 /obj/item/ammo_box/vampire
 	icon = 'code/modules/wod13/ammo.dmi'
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
@@ -278,6 +330,12 @@
 	desc = "a box of High Velocity (HV) ammo."
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm/plus
 
+/obj/item/ammo_box/vampire/c9mm/rubber
+	name = "ammo box (9mm, rubber-shot"
+	desc = "a box of less lethal ammo."
+	icon_state = "9box_rubber"
+	ammo_type = /obj/item/ammo_casing/vampire/c9mm/rubber
+
 /obj/item/ammo_box/vampire/c9mm/moonclip
 	name = "ammo clip (9mm)"
 	desc = "a 3 round clip to hold 9mm rounds. For once, calling it a clip is accurate."
@@ -285,6 +343,11 @@
 	max_ammo = 3
 	w_class = WEIGHT_CLASS_TINY
 	multiple_sprites = AMMO_BOX_PER_BULLET
+
+/obj/item/ammo_box/vampire/c9mm/moonclip/rubber
+	name = "ammo clip (9mm, Rubber)"
+	desc = "a 3 round clip to hold 9mm rounds. For once, calling it a clip is accurate."
+	icon_state = "9rmoonclip"
 
 //////////////////
 
@@ -303,6 +366,12 @@
 /obj/item/ammo_box/vampire/c45acp/HP
 	name = "ammo box (.45 ACP HP)"
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp/HP
+	max_ammo = 100
+
+/obj/item/ammo_box/vampire/c45acp/rubber
+	name = "ammo box (.45 ACP, rubbershot)"
+	icon_state = "45box_rubber"
+	ammo_type = /obj/item/ammo_casing/vampire/c45acp/rubber
 	max_ammo = 100
 
 /obj/item/ammo_box/vampire/c44
@@ -355,6 +424,16 @@
 	name = "ammo box (12g, 00 buck)"
 	icon_state = "12box_buck"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck
+
+/obj/item/ammo_box/vampire/c12g/rubber
+	name = "ammo box (12g, rubber shot)"
+	icon_state = "12box_rubber"
+	ammo_type = /obj/item/ammo_casing/vampire/c12g/rubber
+
+/obj/item/ammo_box/vampire/c12g/incap
+	name = "ammo box (12g, High Impact Incapacitation Round)"
+	icon_state = "12box_incap"
+	ammo_type = /obj/item/ammo_casing/vampire/c12g/incap
 
 /obj/item/ammo_box/vampire/arrows
 	name = "ammo box (arrows)"
@@ -434,6 +513,20 @@
 		M.apply_damage(20, CLONE)
 		M.apply_status_effect(STATUS_EFFECT_SILVER_SLOWDOWN)
 
+/obj/projectile/beam/beam_rifle/vampire/vamp12g/silver
+	name = "12g silver buck"
+
+/obj/projectile/beam/beam_rifle/vampire/vamp12g/silver/on_hit(atom/target, blocked = FALSE)
+	. = ..()
+	if(iswerewolf(target) || isgarou(target))
+		var/mob/living/carbon/M = target
+		if(M.auspice.gnosis)
+			if(prob(50))
+				adjust_gnosis(-1, M)
+
+		M.apply_damage(30, CLONE)
+		M.apply_status_effect(STATUS_EFFECT_SILVER_SLOWDOWN)
+
 /obj/item/ammo_casing/vampire/c9mm/silver
 	name = "9mm silver bullet casing"
 	desc = "A 9mm silver bullet casing."
@@ -467,6 +560,13 @@
 	icon_state = "556"
 	base_iconstate = "556"
 
+/obj/item/ammo_casing/vampire/c12g/silver
+	name = "12g silver casing"
+	desc = "A 12g silver casing."
+	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp12g/silver
+	icon_state = "s12"
+	base_iconstate = "s12"
+
 /obj/item/ammo_box/vampire/c9mm/silver
 	name = "ammo box (9mm silver)"
 	icon_state = "9box-silver"
@@ -496,3 +596,9 @@
 	icon_state = "762box-silver"
 	ammo_type = /obj/item/ammo_casing/vampire/c762x51mm/silver
 	max_ammo = 40
+
+/obj/item/ammo_box/vampire/c12g/silver
+	name = "ammo box (12g slug silver)"
+	icon_state = "s12box-buck"
+	ammo_type = /obj/item/ammo_casing/vampire/c12g/silver
+	max_ammo = 30
