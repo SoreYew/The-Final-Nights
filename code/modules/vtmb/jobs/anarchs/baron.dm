@@ -28,6 +28,7 @@
 		"Bouncer",
 		"Emissary",
 		"Sweeper",
+		"Liaison",
 		"Voivode"
 	)
 
