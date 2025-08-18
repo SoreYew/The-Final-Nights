@@ -76,3 +76,13 @@
 		"Endron Labourer"
 	)
 
+/datum/job/vamp/bruiser
+	alt_titles = list(
+	"Bouncer",
+	"Coyote",
+	"Piper",
+	"Rotten Apple",
+	"Houdini",
+	"Baby",
+	"Cleaver",
+	)

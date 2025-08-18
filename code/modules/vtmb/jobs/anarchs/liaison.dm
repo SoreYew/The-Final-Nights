@@ -22,7 +22,7 @@
 	known_contacts = list("Baron","Bouncer","Emissary","Sweeper")
 	allowed_species = list("Kuei-Jin")
 
-	v_duty = "You are a liaison to the San Francisco Barony, from the New Promise Mandarinate. "
+	v_duty = "You are a liaison to the San Francisco Barony, from the New Promise Mandarinate. Train the Hin of the Barony on the delicate means of Shadow War, and ensure that the rights of the Hungry Dead are respected in this City."
 
 /datum/outfit/job/liaison/pre_equip(mob/living/carbon/human/H)
 	..()
