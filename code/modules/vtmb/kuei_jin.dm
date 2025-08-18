@@ -59,7 +59,7 @@
 	heatmod = 1
 	burnmod = 3
 	dust_anim = "dust-k"
-	whitelisted = FALSE
+	whitelisted = TRUE
 	selectable = TRUE
 	var/turf/fool_turf
 	var/fool_fails = 0
