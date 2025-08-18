@@ -816,6 +816,11 @@
 		list(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Bartender")
 		)
 
+/obj/item/vamp/phone/liaison
+	contact_networks_pre_init = list(
+		list(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Promoter")
+		)
+
 // WAREHOUSE
 
 /obj/item/vamp/phone/dealer

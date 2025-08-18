@@ -3816,4 +3816,5 @@
 #include "modular_tfn\modules\werewolf\werewolf_mob\werewolf_interactions.dm"
 #include "modular_tfn\modules\werewolf\werewolf_mob\werewolf_update_icons.dm"
 #include "interface\skin.dmf"
+#include "code\modules\vtmb\jobs\anarchs\liaison.dm"
 // END_INCLUDE
