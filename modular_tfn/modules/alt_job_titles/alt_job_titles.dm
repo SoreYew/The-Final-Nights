@@ -83,6 +83,7 @@
 	"Piper",
 	"Rotten Apple",
 	"Houdini",
-	"Baby",
+	"Prospect",
 	"Cleaver",
+	"Molotov",
 	)

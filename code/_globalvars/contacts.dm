@@ -11,7 +11,7 @@ GLOBAL_LIST_INIT(giovanni_network, list())
 GLOBAL_LIST_INIT(tzmisce_network, list())
 GLOBAL_LIST_INIT(anarch_network, list())
 GLOBAL_LIST_INIT(warehouse_network, list())
-GLOBAL_LIST_INIT(triads_network, list())
+GLOBAL_LIST_INIT(axes_network, list())
 GLOBAL_LIST_INIT(vampire_leader_network, list())
 GLOBAL_LIST_INIT(endron_network, list())
 
@@ -23,7 +23,7 @@ GLOBAL_LIST_INIT(endron_network, list())
 #define TZMISCE_NETWORK 5
 #define ANARCH_NETWORK 6
 #define WAREHOUSE_NETWORK 7
-#define TRIADS_NETWORK 8
+#define AXES_NETWORK 8
 #define VAMPIRE_LEADER_NETWORK 9
 #define ENDRON_NETWORK 10
 
@@ -44,8 +44,8 @@ GLOBAL_LIST_INIT(endron_network, list())
             return GLOB.anarch_network
         if(WAREHOUSE_NETWORK)
             return GLOB.warehouse_network
-        if(TRIADS_NETWORK)
-            return GLOB.triads_network
+        if(AXES_NETWORK)
+            return GLOB.axes_network
         if(VAMPIRE_LEADER_NETWORK)
             return GLOB.vampire_leader_network
         if(ENDRON_NETWORK)

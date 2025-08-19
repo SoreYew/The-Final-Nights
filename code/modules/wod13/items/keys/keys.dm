@@ -400,7 +400,7 @@
 
 //===========================MISC KEYS===========================
 
-/obj/item/vamp/keys/triads
+/obj/item/vamp/keys/axes
 	name = "Rusty keys"
 	accesslocks = list(
 		"triad",

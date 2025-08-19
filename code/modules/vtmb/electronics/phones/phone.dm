@@ -835,11 +835,11 @@
 		list(NETWORK_ID = WAREHOUSE_NETWORK, OUR_ROLE = "Supply Technician")
 		)
 
-// TRIADS
+// GANGSTERS
 
-/obj/item/vamp/phone/triads_soldier
+/obj/item/vamp/phone/axe_gangster
 	contact_networks_pre_init = list(
-		list(NETWORK_ID = TRIADS_NETWORK, OUR_ROLE = "Chinatown Associate")
+		list(NETWORK_ID = AXES_NETWORK, OUR_ROLE = "Chinatown Associate")
 		)
 
 // ENDRON

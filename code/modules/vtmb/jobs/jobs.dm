@@ -165,9 +165,9 @@
 	desc = "A badge which shows social qualifications."
 
 /obj/item/card/id/bruiser
-	name = "bruiser badge"
-	id_type_name = "bruiser badge"
-	desc = "A badge which shows grit."
+	name = "member badge"
+	id_type_name = "member's badge"
+	desc = "A badge which shows an association."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "bruiser_badge"
 	inhand_icon_state = "card-id"
