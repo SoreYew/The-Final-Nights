@@ -4,7 +4,7 @@
 	faction = "Vampire"
 	total_positions = 8
 	spawn_positions = 8
-	supervisors = " the Axes"
+	supervisors = "the other Axes"
 	selection_color = "#bb9d3d"
 
 	outfit = /datum/outfit/job/axe_gangster
