@@ -41229,6 +41229,18 @@
 /obj/structure/table/wood,
 /obj/item/melee/vampirearms/fireaxe/axe_gang,
 /obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "kJq" = (
@@ -43123,22 +43135,22 @@
 /obj/item/weedseed{
 	pixel_x = 8
 	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
 	open = 0;
 	pixel_y = 33
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
