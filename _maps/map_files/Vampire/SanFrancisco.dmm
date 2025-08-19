@@ -42073,6 +42073,9 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/interior)
+"kVo" = (
+/turf/open/space/basic,
+/area/vtm/interior)
 "kVp" = (
 /obj/machinery/light/prince{
 	pixel_y = 32
@@ -163750,7 +163753,7 @@ cze
 aZz
 hwU
 hwU
-hwU
+kVo
 hwU
 hwU
 hwU
