@@ -14366,6 +14366,14 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/theatre)
+"dOq" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "dOt" = (
 /mob/living/simple_animal/hostile/cockroach,
 /turf/open/floor/plating/concrete{
@@ -25686,6 +25694,7 @@
 	pixel_y = 15;
 	pixel_x = 32
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
 "gMr" = (
@@ -26633,6 +26642,13 @@
 /obj/item/clothing/under/vampire/burlesque/daisyd,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
+"gZc" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "gZf" = (
 /turf/open/floor/carpet/black,
 /area/vtm/interior)
@@ -30378,15 +30394,11 @@
 /area/vtm/interior/giovanni)
 "hXU" = (
 /obj/structure/table/wood,
-/obj/item/melee/vampirearms/sabre{
-	color = "#00A36C";
-	name = "Dai Lo's Dao";
-	desc = "A curved sword covered in a intricately etched pattern."
-	},
-/obj/item/storage/belt/vampire/sheathe/sabre,
 /obj/machinery/light{
 	pixel_y = 32
 	},
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "hYb" = (
@@ -35927,6 +35939,14 @@
 /obj/effect/landmark/start/prince,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
+"jsG" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "jsI" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#39537F";
@@ -36230,6 +36250,7 @@
 /obj/effect/decal/carpet{
 	pixel_y = -14
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "jwY" = (
@@ -41206,6 +41227,8 @@
 /area/vtm/interior/littleitaly)
 "kJk" = (
 /obj/structure/table/wood,
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "kJq" = (
@@ -43229,6 +43252,13 @@
 /obj/structure/chair/wood/wings,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/banu/haven)
+"ljy" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "ljG" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0
@@ -44826,6 +44856,11 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"lEZ" = (
+/obj/structure/chair/wood,
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "lFa" = (
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
@@ -45310,6 +45345,13 @@
 /obj/effect/decal/asphaltline,
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
+"lLg" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "lLq" = (
 /obj/effect/turf_decal/siding/green{
 	dir = 1
@@ -81898,6 +81940,8 @@
 "vaP" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars/havana,
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/melee/vampirearms/fireaxe/axe_gang,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "vaV" = (
@@ -158861,7 +158905,7 @@ bXK
 bXK
 bXK
 btp
-gIz
+ljy
 gIz
 kgF
 wqF
@@ -159266,7 +159310,7 @@ bXK
 bXK
 btp
 nPF
-nPF
+lLg
 kgF
 dGJ
 hbb
@@ -168500,7 +168544,7 @@ tBV
 pDk
 mNF
 sGz
-mCU
+dOq
 uSP
 hZi
 euf
@@ -169310,7 +169354,7 @@ hZi
 hZi
 hZi
 hEB
-pQv
+jsG
 pQv
 jOc
 jOc
@@ -201065,9 +201109,9 @@ tiU
 qaL
 aXQ
 wli
-oon
+lEZ
 oXV
-dNd
+gZc
 fyE
 mjT
 mjT
@@ -201469,9 +201513,9 @@ qYu
 fzP
 xQB
 wli
-oon
+lEZ
 uLn
-dNd
+gZc
 fyE
 mjT
 mjT

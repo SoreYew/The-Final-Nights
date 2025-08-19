@@ -105,6 +105,10 @@
 	. = ..()
 	icon_state = "axetzi0"
 
+/obj/item/melee/vampirearms/fireaxe/axe_gang
+	icon_state = "fireaxegang0"
+	name = "grey fire axe"
+	desc = "Truly, the weapon of a madman. Who would think to color coordinate axes?"
 
 /obj/item/melee/vampirearms/katana
 	name = "katana"
