@@ -6,7 +6,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Baron and New Promise Mandarinate"
-	selection_color = "#380101"
+	selection_color = "#434343"
 
 	outfit = /datum/outfit/job/liaison
 
