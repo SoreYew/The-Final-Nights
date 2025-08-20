@@ -29,9 +29,9 @@ GLOBAL_LIST_INIT(camarilla_council_positions, list(
 GLOBAL_LIST_INIT(anarch_positions, list(
 	"Baron",
 	"Emissary",
+	"Liaison",
 	"Sweeper",
-	"Bruiser",
-	"Liaison"
+	"Bruiser"
 	))
 
 GLOBAL_LIST_INIT(citizen_positions, list(
