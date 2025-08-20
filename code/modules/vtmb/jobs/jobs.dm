@@ -206,6 +206,20 @@
 	worn_icon_state = "emissary_badge"
 	registered_name_is_public = FALSE
 
+/obj/item/card/id/liaison
+	name = "liaison badge"
+	id_type_name = "liaison badge"
+	desc = "A badge which shows obligation, and solidarity."
+	icon = 'code/modules/wod13/items.dmi'
+	icon_state = "liaison_badge"
+	inhand_icon_state = "card-id"
+	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
+	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	worn_icon = 'code/modules/wod13/worn.dmi'
+	worn_icon_state = "liaison_badge"
+	registered_name_is_public = FALSE
+
 /obj/item/card/id/baron
 	name = "eagle badge"
 	id_type_name = "eagle badge"

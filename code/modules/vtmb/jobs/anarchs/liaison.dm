@@ -35,7 +35,7 @@
 	jobtype = /datum/job/vamp/liaison
 	uniform = /obj/item/clothing/under/vampire/suit
 	shoes = /obj/item/clothing/shoes/vampire
-	id = /obj/item/cockclock
+	id = /obj/item/card/id/liaison
 	l_pocket = /obj/item/vamp/phone/liaison
 	r_pocket = /obj/item/vamp/keys/anarch
 	backpack_contents = list(/obj/item/passport=1, /obj/item/flashlight=1, /obj/item/vamp/creditcard=1)
