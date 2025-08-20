@@ -30397,8 +30397,9 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "hYb" = (
@@ -41227,8 +41228,6 @@
 /area/vtm/interior/littleitaly)
 "kJk" = (
 /obj/structure/table/wood,
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
 /obj/item/vamp/keys{
 	accesslocks = list("axes","laundromat");
 	name = "Shady Chinatown Keys"
@@ -41241,6 +41240,9 @@
 	accesslocks = list("axes","laundromat");
 	name = "Shady Chinatown Keys"
 	},
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "kJq" = (
@@ -81955,8 +81957,9 @@
 "vaP" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars/havana,
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
-/obj/item/melee/vampirearms/fireaxe/axe_gang,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "vaV" = (
