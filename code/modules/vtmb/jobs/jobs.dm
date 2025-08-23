@@ -167,7 +167,7 @@
 /obj/item/card/id/bruiser
 	name = "member badge"
 	id_type_name = "member's badge"
-	desc = "A badge which shows an association."
+	desc = "The badge of a club member. United in purpose, the fists strike out."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "bruiser_badge"
 	inhand_icon_state = "card-id"
@@ -181,7 +181,7 @@
 /obj/item/card/id/sweeper
 	name = "sweeper badge"
 	id_type_name = "sweeper badge"
-	desc = "A badge which shows perspective."
+	desc = "The badge of a club member. Collecting what is left to the margins, into one neat pile."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "sweeper_badge"
 	inhand_icon_state = "card-id"
@@ -195,7 +195,7 @@
 /obj/item/card/id/emissary
 	name = "emissary badge"
 	id_type_name = "emissary badge"
-	desc = "A badge which shows a favored voice, interlaced with gold thread."
+	desc = "The gold-interlaced badge of a club member. The pride of a loudmouth, or silver tongued swindler."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "emissary_badge"
 	inhand_icon_state = "card-id"
@@ -209,7 +209,7 @@
 /obj/item/card/id/liaison
 	name = "liaison badge"
 	id_type_name = "liaison badge"
-	desc = "A badge which shows obligation, and solidarity."
+	desc = "The gold-interlaced badge of a club member. The ties that bind, and unity despite difference."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "liaison_badge"
 	inhand_icon_state = "card-id"
