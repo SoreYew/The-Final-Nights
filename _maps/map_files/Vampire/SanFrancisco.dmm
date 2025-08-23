@@ -1291,9 +1291,6 @@
 /area/vtm/clinic/haven)
 "arw" = (
 /obj/structure/table,
-/obj/item/paper/fluff{
-	default_raw_text = "Okay, Steven, let me get this drilled into your thick skull. The 'cats falling from the penthouse level onto the street' issue will NOT be getting raised to the CEO. Your job is to watch the cameras, not police company morals. We will continue to buy new cats for the penthouse garden, and we will NOT be installing railings as the CEO has already stated they ruin the feng shui of the garden. Try to raise this to the PR team again and you are getting FIRED."
-	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower)
 "arx" = (
@@ -7495,6 +7492,9 @@
 /obj/structure/flora/ausbushes/fullgrass{
 	plane = 2.8
 	},
+/obj/structure/railing/metal{
+	plane = 4.1
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "cbz" = (
@@ -9837,6 +9837,9 @@
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/leafybush,
+/obj/structure/railing/metal{
+	dir = 6
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "cDP" = (
@@ -10500,6 +10503,9 @@
 	dir = 4
 	},
 /obj/structure/flora/ausbushes/fernybush,
+/obj/structure/railing/metal{
+	dir = 4
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "cNM" = (
@@ -12885,6 +12891,9 @@
 	plane = 2.8
 	},
 /obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/railing/metal{
+	plane = 4.1
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "dsw" = (
@@ -13973,10 +13982,6 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/ammo_box/vampire/c9mm/silver,
-/obj/item/ammo_box/vampire/c44/silver{
-	pixel_y = 11
-	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "dIZ" = (
@@ -16309,11 +16314,9 @@
 /area/vtm/sewer/nosferatu_warren)
 "epC" = (
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen/fourcolor{
-	pixel_y = 5
+/obj/machinery/bitcoin_miner{
+	name = "money printer";
+	desc = "A machine that is designed to print counterfeit currency with impeccable accuracy, with a monitor connected to it.\nIt has an output for withdrawing the cash obtained from printing, somehow."
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/millennium_tower/f3)
@@ -17480,6 +17483,11 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/baali)
+"eGt" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/obj/structure/closet/boxinggloves,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "eGu" = (
 /obj/effect/decal/bordur{
 	dir = 6
@@ -18792,6 +18800,9 @@
 /obj/effect/decal/bordur,
 /obj/structure/vamptree{
 	icon_state = "tree8"
+	},
+/obj/structure/railing/metal{
+	plane = 4.1
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
@@ -20446,6 +20457,7 @@
 	pixel_x = -7
 	},
 /obj/item/megaphone,
+/obj/item/masquerade_contract,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch/basement)
 "frE" = (
@@ -20528,6 +20540,11 @@
 	pixel_y = 15;
 	pixel_x = 7
 	},
+/obj/item/vamp/keys/sabbat,
+/obj/item/vamp/keys/sabbat,
+/obj/item/vamp/keys/sabbat,
+/obj/item/vamp/keys/sabbat,
+/obj/item/vamp/keys/sabbat,
 /obj/item/vamp/keys/sabbat,
 /obj/item/vamp/keys/sabbat,
 /turf/open/floor/plating/parquetry/old,
@@ -21847,6 +21864,9 @@
 	},
 /obj/structure/flora/ausbushes/fullgrass{
 	plane = 2.8
+	},
+/obj/structure/railing/metal{
+	dir = 4
 	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
@@ -24440,6 +24460,9 @@
 "gwR" = (
 /obj/effect/decal/bordur,
 /obj/structure/flora/ausbushes/fernybush,
+/obj/structure/railing/metal{
+	plane = 4.1
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "gwT" = (
@@ -40250,6 +40273,10 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/clinic)
+"kwk" = (
+/obj/effect/landmark/start/sabbatist,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/sabbat_lair)
 "kwn" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#574d46";
@@ -45971,6 +45998,7 @@
 	pixel_y = 15;
 	pixel_x = 7
 	},
+/obj/effect/landmark/start/sabbatist,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/sabbat_lair)
 "lVk" = (
@@ -50285,6 +50313,15 @@
 /obj/machinery/light/prince{
 	pixel_y = 32
 	},
+/obj/item/gun/ballistic/automatic/vampire/deagle/c50{
+	name = "Compliance";
+	color = "#B2A9A9";
+	desc = "An extremely powerful, and rare, handcannon. This one seems to bolster gold engravings with pro-authority sentiments."
+	},
+/obj/item/ammo_box/magazine/m50,
+/obj/item/ammo_box/magazine/m50,
+/obj/item/ammo_box/magazine/m50,
+/obj/item/ammo_box/vampire/c50,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f2)
 "mVH" = (
@@ -50798,6 +50835,9 @@
 	},
 /obj/effect/decal/shadow,
 /obj/effect/decal/bordur{
+	dir = 4
+	},
+/obj/structure/railing/metal{
 	dir = 4
 	},
 /turf/open/floor/plating/vampgrass,
@@ -56045,9 +56085,6 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/ammo_box/vampire/c45acp/silver{
-	pixel_y = -10
-	},
 /obj/machinery/light/small{
 	dir = 4;
 	pixel_x = -16;
@@ -56881,6 +56918,9 @@
 	plane = 2.8
 	},
 /obj/structure/flora/ausbushes/grassybush,
+/obj/structure/railing/metal{
+	plane = 4.1
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "oAL" = (
@@ -66140,6 +66180,9 @@
 	},
 /obj/structure/flora/ausbushes/grassybush,
 /obj/item/binoculars,
+/obj/structure/railing/metal{
+	dir = 6
+	},
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "qSD" = (
@@ -91997,6 +92040,9 @@
 	dir = 8;
 	color = "#636363"
 	},
+/obj/item/ammo_box/vampire/c9mm/silver,
+/obj/item/ammo_box/vampire/c45acp/silver,
+/obj/item/ammo_box/vampire/c556/silver,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "xME" = (
@@ -92593,6 +92639,7 @@
 /obj/structure/flora/ausbushes/fullgrass{
 	plane = 2.8
 	},
+/obj/structure/railing/metal/corner,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/millennium_tower/f3)
 "xUH" = (
@@ -102017,7 +102064,7 @@ xfw
 rCB
 hYX
 idX
-wGV
+kwk
 wGV
 reI
 hYX
@@ -102421,7 +102468,7 @@ bef
 rCB
 hYX
 reI
-wGV
+kwk
 wGV
 frZ
 hYX
@@ -102623,8 +102670,8 @@ bef
 rCB
 hYX
 mac
-wGV
-wGV
+kwk
+kwk
 hYX
 hYX
 hYX
@@ -171335,7 +171382,7 @@ hZi
 hZi
 hZi
 ivd
-hEB
+eGt
 jOc
 jOc
 jOc
