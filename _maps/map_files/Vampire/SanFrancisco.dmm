@@ -1309,7 +1309,7 @@
 /area/vtm/substation)
 "arr" = (
 /obj/structure/vampdoor{
-	lock_id = "malkav" "fireshelter";
+	lock_id = "malkav""fireshelter";
 	name = "Fire Shelter"
 	},
 /obj/effect/turf_decal/siding/white{
@@ -3280,7 +3280,7 @@
 /obj/structure/vampdoor/glass/clinic{
 	name = "Fire Shelter";
 	dir = 4;
-	lock_id = "malkav" "fireshelter"
+	lock_id = "malkav""fireshelter"
 	},
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -12764,7 +12764,7 @@
 /area/vtm/interior/cog/caern)
 "dna" = (
 /obj/structure/vampdoor{
-	lock_id = "clinic" "malkav";
+	lock_id = "clinic""malkav";
 	lockpick_difficulty = 4;
 	dir = 4
 	},
@@ -16108,7 +16108,7 @@
 "ehX" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Ward";
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/clinic/haven)
@@ -19667,7 +19667,7 @@
 "fbw" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Storage";
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -22745,6 +22745,7 @@
 /obj/item/pushbroom,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
+/obj/item/storage/bag/trash,
 /turf/open/floor/plating/concrete,
 /area/vtm/clinic/haven)
 "fSh" = (
@@ -26915,7 +26916,7 @@
 	},
 /obj/effect/decal/litter,
 /obj/structure/vampdoor/glass/clinic{
-	lock_id = "malkav" "fireshelter";
+	lock_id = "malkav""fireshelter";
 	name = "Fire Shelter"
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -27253,7 +27254,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "malkav" "fireshelter";
+	lock_id = "malkav""fireshelter";
 	name = "FIRE SHELTER"
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -33743,7 +33744,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "clinic" "malkav";
+	lock_id = "clinic""malkav";
 	name = "Psychology Storage"
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -43517,7 +43518,7 @@
 	},
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Office";
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/clinic/haven)
@@ -54357,7 +54358,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "malkav" "fireshelter";
+	lock_id = "malkav""fireshelter";
 	name = "FIRE SHELTER";
 	dir = 4
 	},
@@ -66460,7 +66461,7 @@
 "qIr" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Ward";
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/clinic/haven)
@@ -85111,7 +85112,7 @@
 /obj/structure/vampdoor/glass/clinic{
 	name = "Reception Desk";
 	dir = 4;
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
