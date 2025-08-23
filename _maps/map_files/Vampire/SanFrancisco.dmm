@@ -7170,9 +7170,6 @@
 /turf/open/floor/plating/dirt,
 /area/vtm/graveyard)
 "bVj" = (
-/obj/structure/fluff/paper{
-	dir = 8
-	},
 /obj/structure/fluff/paper/stack{
 	dir = 6
 	},
@@ -8434,13 +8431,6 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/park)
 "ckr" = (
-/obj/structure/bed/pod{
-	name = "bunk bed"
-	},
-/obj/structure/bed/pod{
-	pixel_y = 13;
-	name = "bunk bed"
-	},
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#39537F"
 	},
@@ -10211,9 +10201,6 @@
 /obj/item/grenade/smokebomb,
 /obj/item/grenade/smokebomb,
 /obj/item/grenade/smokebomb,
-/obj/structure/fluff/paper{
-	dir = 4
-	},
 /obj/item/clothing/under/vampire/primogen_malkavian,
 /obj/item/clothing/suit/vampire/trench/malkav,
 /obj/item/clothing/under/vampire/primogen_malkavian/female,
@@ -17738,13 +17725,6 @@
 /obj/structure/vamptree/pine,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/community)
-"eFu" = (
-/obj/effect/decal/trash,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plating/vampplating,
-/area/vtm/clinic/haven)
 "eFA" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large,
@@ -20069,10 +20049,10 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights/industrial)
 "fgD" = (
-/obj/structure/table/wood,
 /obj/structure/fluff/paper{
 	dir = 5
 	},
+/obj/structure/table/wood,
 /obj/item/vtm_artifact/rand,
 /obj/structure/noticeboard{
 	icon_state = "nboard05";
@@ -24271,6 +24251,7 @@
 	color = "#5a2355";
 	dir = 5
 	},
+/obj/structure/bed/dogbed,
 /turf/open/floor/carpet/purple,
 /area/vtm/clinic/haven)
 "gnB" = (
@@ -25406,7 +25387,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/bed/dogbed,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#5a2355";
 	dir = 6
@@ -33744,16 +33724,11 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/clinic/haven)
 "iGW" = (
-/obj/structure/fluff/paper{
-	dir = 6
+/obj/effect/decal/trash,
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/structure/fluff/paper/stack{
-	dir = 6
-	},
-/obj/item/pen{
-	pixel_y = 8
-	},
-/turf/open/floor/carpet/royalblue,
+/turf/open/floor/plating/vampplating,
 /area/vtm/clinic/haven)
 "iHa" = (
 /obj/effect/decal/trash,
@@ -44335,11 +44310,11 @@
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer/nosferatu_warren)
 "lnj" = (
-/obj/structure/table/wood,
 /obj/item/vamp/keys/clinic{
 	pixel_y = 11;
 	pixel_x = 11
 	},
+/obj/structure/table/wood,
 /obj/item/vamp/keys/clinic{
 	pixel_y = 11;
 	pixel_x = 11
@@ -48650,10 +48625,10 @@
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer/nosferatu_warren)
 "mqG" = (
-/obj/structure/table/wood,
 /obj/structure/fluff/paper{
 	dir = 8
 	},
+/obj/structure/table/wood,
 /obj/item/toy/dummy{
 	pixel_x = -4
 	},
@@ -62135,16 +62110,16 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
 "pFb" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#39537F";
+	dir = 10
+	},
 /obj/structure/bed/pod{
 	name = "bunk bed"
 	},
 /obj/structure/bed/pod{
 	pixel_y = 13;
 	name = "bunk bed"
-	},
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#39537F";
-	dir = 10
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/clinic/haven)
@@ -66110,6 +66085,13 @@
 	color = "#39537F";
 	dir = 9
 	},
+/obj/structure/bed/pod{
+	pixel_y = 13;
+	name = "bunk bed"
+	},
+/obj/structure/bed/pod{
+	name = "bunk bed"
+	},
 /turf/open/floor/carpet/blue,
 /area/vtm/clinic/haven)
 "qEp" = (
@@ -68032,8 +68014,8 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/tzimisce_manor)
 "rcy" = (
-/obj/structure/table/wood,
 /obj/item/police_radio,
+/obj/structure/table/wood,
 /obj/structure/fluff/paper{
 	dir = 4
 	},
@@ -82196,13 +82178,13 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm)
 "uNA" = (
-/obj/structure/table/wood,
 /obj/item/vamp/keys/camarilla{
 	accesslocks = list("malkav","malkav1","malkav2", "fireshelter");
 	name = "Master key";
 	pixel_y = 5;
 	pixel_x = -7
 	},
+/obj/structure/table/wood,
 /obj/structure/fluff/paper{
 	dir = 9
 	},
@@ -89252,9 +89234,6 @@
 /obj/item/clothing/head/vampire/british,
 /obj/item/clothing/head/vampire/malkav,
 /obj/item/clothing/head/cone,
-/obj/structure/fluff/paper{
-	dir = 8
-	},
 /obj/item/clothing/head/vampire/napoleon{
 	pixel_y = 13
 	},
@@ -91514,9 +91493,6 @@
 /turf/closed/wall/vampwall/painted/low/window,
 /area/vtm/interior/shop)
 "xko" = (
-/obj/structure/fluff/paper{
-	dir = 4
-	},
 /obj/structure/fluff/paper/stack{
 	dir = 6
 	},
@@ -91757,9 +91733,6 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sabbat_lair)
 "xon" = (
-/obj/structure/fluff/paper{
-	dir = 10
-	},
 /obj/structure/fluff/paper/stack{
 	dir = 6
 	},
@@ -126135,7 +126108,7 @@ fgD
 rcy
 cGb
 xko
-iGW
+xon
 mcp
 sRn
 rlb
@@ -129786,7 +129759,7 @@ dpH
 gUe
 ixm
 ldh
-eFu
+iGW
 vAM
 rCB
 xfw
