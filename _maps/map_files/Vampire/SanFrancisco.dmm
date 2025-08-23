@@ -17739,13 +17739,11 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/community)
 "eFu" = (
-/obj/effect/decal/pallet,
-/obj/structure/closet/crate/large,
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
+/obj/effect/decal/trash,
+/obj/machinery/light/small{
+	dir = 1
 	},
-/turf/open/floor/plating/parquetry/old,
+/turf/open/floor/plating/vampplating,
 /area/vtm/clinic/haven)
 "eFA" = (
 /obj/effect/decal/pallet,
@@ -20079,10 +20077,6 @@
 /obj/structure/noticeboard{
 	icon_state = "nboard05";
 	pixel_y = 32
-	},
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#6488EA"
 	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/clinic/haven)
@@ -27360,10 +27354,6 @@
 /area/vtm/interior/shop)
 "hbZ" = (
 /obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/machinery/light{
-	pixel_y = 0;
 	dir = 4
 	},
 /turf/open/floor/plating/vampplating,
@@ -47042,12 +47032,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
-"lXA" = (
-/obj/machinery/light/small/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/vtm/clinic/haven)
 "lXB" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
@@ -52521,10 +52505,6 @@
 	},
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
-	},
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
 	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/clinic/haven)
@@ -60265,11 +60245,6 @@
 /obj/item/storage/box/drinkingglasses,
 /turf/closed/wall/vampwall/junk/low,
 /area/vtm/sewer/nosferatu_bar)
-"phE" = (
-/obj/machinery/light,
-/obj/effect/decal/wallpaper/paper/darkred,
-/turf/closed/wall/vampwall/city,
-/area/vtm/clinic/haven)
 "phF" = (
 /obj/transfer_point_vamp{
 	alpha = 0;
@@ -85237,11 +85212,6 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
-"vGY" = (
-/obj/machinery/light,
-/obj/effect/decal/wallpaper/stone,
-/turf/closed/wall/vampwall/city,
-/area/vtm/clinic/haven)
 "vHf" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -126576,7 +126546,7 @@ rlb
 cas
 cCy
 vgh
-phE
+hpA
 elx
 amR
 hqm
@@ -128800,7 +128770,7 @@ ldT
 oGy
 pik
 rzU
-eFu
+uad
 uad
 uad
 vAM
@@ -129210,7 +129180,7 @@ kpw
 uEP
 elG
 qEY
-lXA
+qEY
 lbz
 rCB
 xfw
@@ -129398,7 +129368,7 @@ jhi
 pik
 vFI
 vAM
-gFP
+pik
 uoL
 uoL
 vAM
@@ -129816,7 +129786,7 @@ dpH
 gUe
 ixm
 ldh
-esX
+eFu
 vAM
 rCB
 xfw
@@ -130812,7 +130782,7 @@ awd
 dQe
 mfi
 mfi
-vGY
+fmL
 coe
 tmM
 jmd
