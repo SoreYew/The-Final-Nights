@@ -34874,6 +34874,14 @@
 /obj/structure/vampdoor/simple,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/shop)
+"jex" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "jey" = (
 /obj/structure/vampdoor/old{
 	dir = 8;
@@ -66803,6 +66811,14 @@
 /obj/item/food/grown/harebell,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"qZh" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "qZx" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/concrete,
@@ -168850,7 +168866,7 @@ raC
 pDk
 mNF
 sGz
-mCU
+jex
 uSP
 hZi
 hZi
@@ -169458,7 +169474,7 @@ hZi
 hZi
 hZi
 hEB
-pQv
+qZh
 pQv
 jOc
 jOc
