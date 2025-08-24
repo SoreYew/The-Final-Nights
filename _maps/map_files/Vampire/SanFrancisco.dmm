@@ -2055,11 +2055,6 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/garou/glade/warder,
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "aBh" = (
@@ -2784,10 +2779,6 @@
 /area/vtm/interior)
 "aMk" = (
 /obj/structure/stone_tile/block/cracked,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "aMy" = (
@@ -9535,7 +9526,7 @@
 /area/vtm/financialdistrict)
 "czW" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -11052,7 +11043,7 @@
 /area/vtm/interior/giovanni)
 "cVk" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 16;
 	locked = 1;
 	dir = 4
@@ -14380,6 +14371,14 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/theatre)
+"dOq" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "dOt" = (
 /mob/living/simple_animal/hostile/cockroach,
 /turf/open/floor/plating/concrete{
@@ -15323,11 +15322,6 @@
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
@@ -15945,10 +15939,6 @@
 /area/vtm/interior/littleitaly)
 "ekc" = (
 /obj/structure/stone_tile/block/cracked,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "ekd" = (
@@ -16424,11 +16414,6 @@
 /area/vtm/jazzclub)
 "erJ" = (
 /obj/structure/stone_tile/slab/cracked,
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "erV" = (
@@ -21614,7 +21599,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -22402,7 +22387,6 @@
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "fSu" = (
@@ -25733,6 +25717,7 @@
 	pixel_y = 15;
 	pixel_x = 32
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
 "gMr" = (
@@ -26680,6 +26665,13 @@
 /obj/item/clothing/under/vampire/burlesque/daisyd,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/strip)
+"gZc" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "gZf" = (
 /turf/open/floor/carpet/black,
 /area/vtm/interior)
@@ -27333,7 +27325,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 9;
 	dir = 4
 	},
@@ -30425,15 +30417,12 @@
 /area/vtm/interior/giovanni)
 "hXU" = (
 /obj/structure/table/wood,
-/obj/item/melee/vampirearms/sabre{
-	color = "#00A36C";
-	name = "Dai Lo's Dao";
-	desc = "A curved sword covered in a intricately etched pattern."
-	},
-/obj/item/storage/belt/vampire/sheathe/sabre,
 /obj/machinery/light{
 	pixel_y = 32
 	},
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "hYb" = (
@@ -33515,15 +33504,6 @@
 /obj/effect/landmark/start/bruiser,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch)
-"iKR" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/beastmaster,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
-/turf/open/floor/plating/stone,
-/area/vtm/forest/caves)
 "iKX" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -33683,7 +33663,6 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/garou/glade/warder,
-/obj/structure/railing,
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "iNw" = (
@@ -34223,7 +34202,7 @@
 /area/vtm/interior/police/court)
 "iTR" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 11;
 	locked = 1
 	},
@@ -34877,7 +34856,7 @@
 "jey" = (
 /obj/structure/vampdoor/old{
 	dir = 8;
-	lock_id = "triad";
+	lock_id = "axes";
 	locked = 1;
 	lockpick_difficulty = 16
 	},
@@ -35984,6 +35963,14 @@
 /obj/effect/landmark/start/prince,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
+"jsG" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/liaison,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch)
 "jsI" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#39537F";
@@ -36287,6 +36274,7 @@
 /obj/effect/decal/carpet{
 	pixel_y = -14
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "jwY" = (
@@ -37410,10 +37398,6 @@
 "jNE" = (
 /obj/structure/stone_tile/block,
 /obj/effect/turf_decal/weather/dirt,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "jNL" = (
@@ -39010,10 +38994,6 @@
 "khC" = (
 /obj/structure/stone_tile/block/cracked,
 /obj/effect/turf_decal/weather/dirt,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "khE" = (
@@ -39105,10 +39085,6 @@
 "kiD" = (
 /obj/structure/stone_tile/block{
 	dir = 4
-	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
 	},
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
@@ -41279,6 +41255,21 @@
 /area/vtm/interior/littleitaly)
 "kJk" = (
 /obj/structure/table/wood,
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "kJq" = (
@@ -42122,6 +42113,9 @@
 	color = "#574d46"
 	},
 /turf/open/floor/carpet/blue,
+/area/vtm/interior)
+"kVo" = (
+/turf/open/space/basic,
 /area/vtm/interior)
 "kVp" = (
 /obj/machinery/light/prince{
@@ -43170,22 +43164,22 @@
 /obj/item/weedseed{
 	pixel_x = 8
 	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
-/obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
-	name = "Shady Chinatown Keys"
-	},
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
 	open = 0;
 	pixel_y = 33
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
+	},
+/obj/item/vamp/keys{
+	accesslocks = list("axes","laundromat");
+	name = "Shady Chinatown Keys"
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
@@ -43302,14 +43296,13 @@
 /obj/structure/chair/wood/wings,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/banu/haven)
-"ljD" = (
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 4;
-	pixel_y = 6
+"ljy" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
 	},
-/turf/open/floor/plating/rough/cave,
-/area/vtm/forest/caves)
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "ljG" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0
@@ -44907,6 +44900,11 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/forest)
+"lEZ" = (
+/obj/structure/chair/wood,
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "lFa" = (
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
@@ -45391,6 +45389,13 @@
 /obj/effect/decal/asphaltline,
 /turf/open/floor/plating/asphalt,
 /area/vtm/financialdistrict)
+"lLg" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "lLq" = (
 /obj/effect/turf_decal/siding/green{
 	dir = 1
@@ -48302,7 +48307,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "mxy" = (
@@ -51207,11 +51211,6 @@
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "ngs" = (
@@ -53073,10 +53072,6 @@
 	dir = 4
 	},
 /obj/effect/landmark/start/garou/glade/warder,
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "nGq" = (
@@ -55760,11 +55755,6 @@
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "omq" = (
@@ -56243,10 +56233,6 @@
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "oqz" = (
@@ -56334,7 +56320,7 @@
 /area/vtm/interior/tzimisce_manor)
 "orB" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -57366,7 +57352,6 @@
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/stone,
 /area/vtm/forest/caves)
 "oEQ" = (
@@ -59227,11 +59212,6 @@
 "pfk" = (
 /obj/structure/stone_tile/block{
 	dir = 8
-	},
-/obj/structure/railing{
-	dir = 4;
-	plane = 4;
-	pixel_y = 3
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
@@ -61509,10 +61489,6 @@
 "pHE" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
-	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/forest/caves)
@@ -65528,7 +65504,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -67746,15 +67722,6 @@
 /obj/item/reagent_containers/food/drinks/soda_cans/monkey_energy,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/subway)
-"rlm" = (
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
-/area/vtm/forest/caves)
 "rlA" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/item/bailer,
@@ -70411,7 +70378,7 @@
 /area/vtm/fishermanswharf/lower)
 "rXn" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -72440,7 +72407,6 @@
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "sAt" = (
@@ -72922,6 +72888,17 @@
 	pixel_y = 7
 	},
 /obj/structure/stone_tile/surrounding,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "sHh" = (
@@ -74371,14 +74348,6 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/glass,
 /area/vtm)
-"tbP" = (
-/obj/structure/stone_tile/slab,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 9
-	},
-/turf/open/floor/plating/stone,
-/area/vtm/forest/caves)
 "tcb" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
@@ -77197,7 +77166,7 @@
 	},
 /obj/structure/vampdoor/old{
 	dir = 1;
-	lock_id = "triad";
+	lock_id = "axes";
 	locked = 1;
 	lockpick_difficulty = 16
 	},
@@ -82031,6 +82000,9 @@
 "vaP" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars/havana,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/melee/vampirearms/fireaxe,
+/obj/item/toy/crayon/spraycan,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "vaV" = (
@@ -85795,14 +85767,6 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
-"wfH" = (
-/obj/structure/stone_tile/slab,
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
-/turf/open/floor/plating/stone,
-/area/vtm/forest/caves)
 "wfQ" = (
 /obj/effect/decal/bordur,
 /obj/effect/decal/pallet,
@@ -86237,16 +86201,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/clinic)
-"wlE" = (
-/obj/structure/stone_tile/block{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
-/turf/open/floor/plating/stone,
-/area/vtm/forest/caves)
 "wlI" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#574d46";
@@ -88854,10 +88808,6 @@
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 3
-	},
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
@@ -90865,6 +90815,17 @@
 "xvi" = (
 /obj/structure/bonfire/prelit,
 /obj/structure/stone_tile/surrounding,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/caves)
 "xvm" = (
@@ -95999,7 +95960,7 @@ atR
 aqb
 aqb
 xvi
-iKR
+gyH
 atR
 rFS
 cZN
@@ -96200,7 +96161,7 @@ kaL
 qXk
 xJE
 oCm
-rlm
+oiE
 atR
 hfC
 atR
@@ -136192,7 +136153,7 @@ aqb
 aqb
 aqb
 sGK
-tbP
+jjs
 oVL
 kaL
 kWP
@@ -136393,7 +136354,7 @@ aqb
 aqb
 xYN
 aqb
-wfH
+jjs
 upV
 lxv
 qqR
@@ -136804,7 +136765,7 @@ muc
 atR
 aqb
 gif
-ljD
+nvm
 wbi
 wbi
 wbi
@@ -138014,7 +137975,7 @@ aqb
 bER
 atR
 pNg
-wlE
+lMH
 jEI
 jFw
 gDP
@@ -159009,7 +158970,7 @@ bXK
 bXK
 bXK
 btp
-gIz
+ljy
 gIz
 kgF
 wqF
@@ -159414,7 +159375,7 @@ bXK
 bXK
 btp
 nPF
-nPF
+lLg
 kgF
 dGJ
 hbb
@@ -163854,7 +163815,7 @@ cze
 aZz
 hwU
 hwU
-hwU
+kVo
 hwU
 hwU
 hwU
@@ -168648,7 +168609,7 @@ tBV
 pDk
 mNF
 sGz
-mCU
+dOq
 uSP
 hZi
 euf
@@ -169458,7 +169419,7 @@ hZi
 hZi
 hZi
 hEB
-pQv
+jsG
 pQv
 jOc
 jOc
@@ -201213,9 +201174,9 @@ tiU
 qaL
 aXQ
 wli
-oon
+lEZ
 oXV
-dNd
+gZc
 fyE
 mjT
 mjT
@@ -201617,9 +201578,9 @@ qYu
 fzP
 xQB
 wli
-oon
+lEZ
 uLn
-dNd
+gZc
 fyE
 mjT
 mjT
