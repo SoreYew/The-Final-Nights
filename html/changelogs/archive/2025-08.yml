@@ -120,3 +120,6 @@
   - bugfix: fixed runtimes on map
   TheTrueSilverRat:
   - map: Added Sabbat late party land marks
+2025-08-25:
+  XeonMations:
+  - bugfix: Fixed a couple of TGUI related runtimes.
