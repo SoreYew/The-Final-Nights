@@ -66459,7 +66459,7 @@
 "qIr" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Ward";
-	lock_id = "clinic" "malkav"
+	lock_id = "clinic""malkav"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/clinic/haven)
