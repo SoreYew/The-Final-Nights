@@ -129,7 +129,7 @@
 	faction = "Vampire"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "State of California and the District Attorney"
+	supervisors = "the State of California and the District Attorney"
 	selection_color = "#7e7e7e"
 
 	outfit = /datum/outfit/job/assistantdistrictattorney
