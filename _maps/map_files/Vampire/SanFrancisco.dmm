@@ -25681,6 +25681,7 @@
 /obj/structure/chair/wood/wings{
 	dir = 4
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
 "gII" = (
@@ -31095,6 +31096,13 @@
 	},
 /turf/open/floor/plating/industrial,
 /area/vtm/interior/nosferatu_office)
+"idF" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "idJ" = (
 /obj/structure/rack,
 /obj/item/detective_scanner,
@@ -54586,6 +54594,7 @@
 /obj/structure/chair/wood/wings{
 	dir = 8
 	},
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/carpet/red,
 /area/vtm/interior/laundromat)
 "nPG" = (
@@ -56484,6 +56493,11 @@
 	},
 /turf/open/floor/plating/church,
 /area/vtm/interior/giovanni)
+"omI" = (
+/obj/structure/chair/wood,
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/shop)
 "omK" = (
 /obj/machinery/light/broken{
 	dir = 4
@@ -202206,9 +202220,9 @@ tiU
 qaL
 aXQ
 wli
-oon
+omI
 oXV
-dNd
+idF
 fyE
 mjT
 mjT
@@ -202610,9 +202624,9 @@ qYu
 fzP
 xQB
 wli
-oon
+omI
 uLn
-dNd
+idF
 fyE
 mjT
 mjT
