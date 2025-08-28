@@ -54629,24 +54629,14 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility)
 "nGO" = (
-/obj/structure/showcase/machinery/tv{
-	icon_state = "tv_analog";
-	pixel_x = 5;
-	pixel_y = 13
-	},
-/obj/structure/showcase/machinery/tv{
-	icon_state = "tv_nature";
-	layer = 4.2;
-	pixel_y = 29;
-	pixel_x = -6
-	},
-/obj/structure/showcase/machinery/tv{
-	pixel_x = -16;
-	pixel_y = 13
-	},
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#004136";
 	dir = 1
+	},
+/obj/structure/showcase/machinery/tv{
+	icon_state = "tv_off";
+	pixel_y = 13;
+	pixel_x = -6
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/clinic/haven)
