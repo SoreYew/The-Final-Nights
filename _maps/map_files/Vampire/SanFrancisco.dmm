@@ -1295,7 +1295,7 @@
 /area/vtm/substation)
 "arr" = (
 /obj/structure/vampdoor{
-	lock_id = "malkav""fireshelter";
+	lock_id = "malkav" "fireshelter";
 	name = "Fire Shelter"
 	},
 /obj/effect/turf_decal/siding/white{
@@ -9416,7 +9416,7 @@
 /area/vtm/church/interior)
 "cvX" = (
 /obj/structure/curtain/bounty,
-/obj/structure/bed/pod,
+/obj/structure/bed,
 /turf/open/floor/plating/vampplating,
 /area/vtm/clinic/haven)
 "cwc" = (
@@ -17608,7 +17608,7 @@
 /obj/structure/vampdoor/glass/clinic{
 	name = "Reception Desk";
 	dir = 4;
-	lock_id = "clinic""malkav"
+	lock_id = "clinic" "malkav"
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8;
@@ -19766,7 +19766,7 @@
 "fbw" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Storage";
-	lock_id = "clinic""malkav"
+	lock_id = "clinic" "malkav"
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -24778,10 +24778,6 @@
 	pixel_x = -3;
 	pixel_y = 14
 	},
-/obj/item/dice/d00{
-	pixel_x = -19;
-	pixel_y = -5
-	},
 /obj/item/dice/d20,
 /obj/item/dice/d100{
 	pixel_y = -7;
@@ -24793,6 +24789,7 @@
 	pixel_y = -2;
 	pixel_x = -6
 	},
+/obj/item/dice/d00,
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
 "grD" = (
@@ -25138,7 +25135,7 @@
 	},
 /obj/effect/decal/litter,
 /obj/structure/vampdoor/glass/clinic{
-	lock_id = "malkav""fireshelter";
+	lock_id = "malkav" "fireshelter";
 	name = "Fire Shelter"
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -32479,6 +32476,8 @@
 	color = "#802d29";
 	dir = 9
 	},
+/obj/structure/table/wood/fancy/red,
+/obj/item/toy/rubberpig,
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
 "ina" = (
@@ -32903,7 +32902,7 @@
 	},
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Office";
-	lock_id = "clinic""malkav"
+	lock_id = "clinic" "malkav"
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/clinic/haven)
@@ -36635,7 +36634,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/structure/bed/pod,
+/obj/structure/bed,
 /turf/open/floor/plating/vampplating,
 /area/vtm/clinic/haven)
 "jok" = (
@@ -37143,12 +37142,10 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/bianchiBank)
 "juw" = (
-/obj/item/toy/rubberpig,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
 	dir = 4
 	},
-/obj/structure/table/wood/fancy/red,
 /turf/open/floor/carpet/red,
 /area/vtm/clinic/haven)
 "juz" = (
@@ -43591,7 +43588,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "malkav""fireshelter";
+	lock_id = "malkav" "fireshelter";
 	name = "FIRE SHELTER"
 	},
 /turf/open/floor/plating/vampplating/mono,
@@ -43930,7 +43927,7 @@
 /obj/structure/vampdoor/glass/clinic{
 	name = "Fire Shelter";
 	dir = 4;
-	lock_id = "malkav""fireshelter"
+	lock_id = "malkav" "fireshelter"
 	},
 /obj/effect/turf_decal/weather/dirt,
 /obj/effect/turf_decal/weather/dirt{
@@ -52461,7 +52458,7 @@
 	color = "#39537F";
 	dir = 9
 	},
-/obj/structure/bed/pod,
+/obj/structure/bed,
 /turf/open/floor/carpet/blue,
 /area/vtm/clinic/haven)
 "ndH" = (
@@ -53048,7 +53045,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "clinic""malkav";
+	lock_id = "clinic" "malkav";
 	name = "Psychology Storage"
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -54037,7 +54034,8 @@
 /area/vtm/interior/shop)
 "nzV" = (
 /obj/structure/toilet{
-	dir = 4
+	dir = 4;
+	pixel_y = 12
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/clinic/haven)
@@ -54954,7 +54952,7 @@
 /obj/structure/vampdoor{
 	locked = 1;
 	lockpick_difficulty = 10;
-	lock_id = "malkav""fireshelter";
+	lock_id = "malkav" "fireshelter";
 	name = "FIRE SHELTER";
 	dir = 4
 	},
@@ -61805,7 +61803,7 @@
 /area/vtm/jazzclub)
 "pqX" = (
 /obj/structure/vampdoor{
-	lock_id = "clinic""malkav";
+	lock_id = "clinic" "malkav";
 	lockpick_difficulty = 4;
 	dir = 4
 	},
@@ -67209,7 +67207,7 @@
 "qIr" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Ward";
-	lock_id = "clinic""malkav"
+	lock_id = "clinic" "malkav"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/clinic/haven)
@@ -71270,7 +71268,7 @@
 	color = "#39537F";
 	dir = 10
 	},
-/obj/structure/bed/pod,
+/obj/structure/bed,
 /turf/open/floor/carpet/blue,
 /area/vtm/clinic/haven)
 "rKb" = (
@@ -85548,7 +85546,7 @@
 "vyT" = (
 /obj/structure/vampdoor/glass/clinic{
 	name = "Psychology Ward";
-	lock_id = "clinic""malkav"
+	lock_id = "clinic" "malkav"
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -87420,8 +87418,8 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/obj/structure/bed/pod,
 /obj/structure/curtain/bounty,
+/obj/structure/bed,
 /turf/open/floor/plating/vampplating,
 /area/vtm/clinic/haven)
 "vYN" = (
@@ -92702,10 +92700,13 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sabbat_lair)
 "xon" = (
-/obj/structure/bed/pod,
-/obj/structure/curtain/bounty,
-/turf/open/floor/plating/vampplating,
-/area/vtm/clinic/haven)
+/obj/effect/decal/trash,
+/obj/structure/lattice/grate{
+	dir = 4
+	},
+/obj/structure/lattice/grate,
+/turf/open/floor/plating/grate/dirty,
+/area/vtm/financialdistrict/library)
 "xot" = (
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk,
@@ -126744,7 +126745,7 @@ uAJ
 lqT
 vAM
 rCB
-xfw
+rCB
 xfw
 xfw
 xfw
@@ -126945,7 +126946,7 @@ lqT
 lqT
 lqT
 vAM
-rCB
+vAM
 rCB
 rCB
 rCB
@@ -127146,7 +127147,7 @@ lqT
 lqT
 lqT
 lqT
-vAM
+lqT
 vAM
 vAM
 vAM
@@ -132391,7 +132392,7 @@ rCB
 rCB
 fmL
 cvX
-xon
+cvX
 vvL
 nGE
 eUA
@@ -168135,7 +168136,7 @@ weZ
 weZ
 cOT
 gXN
-oqG
+xon
 iEh
 iEh
 lGt
