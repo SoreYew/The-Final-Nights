@@ -92704,7 +92704,6 @@
 /obj/structure/lattice/grate{
 	dir = 4
 	},
-/obj/structure/lattice/grate,
 /turf/open/floor/plating/grate/dirty,
 /area/vtm/financialdistrict/library)
 "xot" = (
