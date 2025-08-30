@@ -167,6 +167,8 @@
   Marshmellow105:
   - map: fixes floors deleted by a recent PR, oopsie!
 2025-08-30:
+  AlmostLikeClockwork:
+  - rscdel: Removed all mcluskys on the map
   XeonMations:
   - bugfix: Fixed a paper related runtime.
   bomby, thatguythere03:

@@ -10949,6 +10949,8 @@
 /obj/machinery/light/warm{
 	pixel_y = 32
 	},
+/obj/item/vamp/keys/taxi,
+/obj/item/vamp/keys/taxi,
 /turf/open/floor/plating/asphalt,
 /area/vtm/cabdepot)
 "cSt" = (
@@ -65965,9 +65967,6 @@
 /area/vtm/pacificheights/industrial)
 "qFX" = (
 /obj/effect/decal/cleanable/oil/streak,
-/obj/vampire_car/taxi{
-	dir = 2
-	},
 /turf/open/floor/plating/rough,
 /area/vtm/cabdepot)
 "qFY" = (
@@ -72297,6 +72296,12 @@
 /obj/effect/decal/wallpaper/light/low,
 /turf/closed/wall/vampwall/painted/low,
 /area/vtm/clinic)
+"snU" = (
+/obj/vampire_car/taxi{
+	dir = 2
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/cabdepot)
 "snX" = (
 /obj/machinery/button/door{
 	pixel_y = 33;
@@ -152777,7 +152782,7 @@ pUu
 vko
 gov
 kGh
-kGh
+snU
 kGh
 sDn
 ofW
@@ -153181,7 +153186,7 @@ pUu
 vko
 kGh
 kGh
-kGh
+snU
 kGh
 sDn
 ofW
