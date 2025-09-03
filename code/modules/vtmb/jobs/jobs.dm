@@ -109,9 +109,9 @@
 			to_chat(H, "<span class='userdanger'>The God has punished you for your sins!</span>", confidential = TRUE)
 
 /obj/item/card/id/prince
-	name = "leader badge"
+	name = "executive access badge"
 	id_type_name = "leader badge"
-	desc = "King in the castle!"
+	desc = "An impressive looking ID card on a lanyard. They must be very important."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id6"
 	inhand_icon_state = "card-id"
@@ -122,9 +122,9 @@
 	worn_icon_state = "id6"
 
 /obj/item/card/id/sheriff
-	name = "head security badge"
+	name = "executive access badge"
 	id_type_name = "head security badge"
-	desc = "A badge which shows honour and dedication."
+	desc = "An impressive looking ID card on a lanyard. This one has a stylized shield on it."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id4"
 	inhand_icon_state = "card-id"
@@ -135,9 +135,9 @@
 	worn_icon_state = "id4"
 
 /obj/item/card/id/camarilla
-	name = "security badge"
+	name = "access badge"
 	id_type_name = "security badge"
-	desc = "A badge which shows honour and dedication."
+	desc = "An ID card on a lanyard. This one has a stylized shield on it."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id3"
 	inhand_icon_state = "card-id"
@@ -148,9 +148,9 @@
 	worn_icon_state = "id3"
 
 /obj/item/card/id/clerk
-	name = "clerk badge"
+	name = "executive access badge"
 	id_type_name = "clerk badge"
-	desc = "A badge which shows bureaucracy qualification."
+	desc = "An impressive looking ID card on a lanyard. This one sports a stylish logo."
 	icon = 'code/modules/wod13/items.dmi'
 	icon_state = "id1"
 	inhand_icon_state = "card-id"
@@ -161,8 +161,8 @@
 	worn_icon_state = "id1"
 
 /obj/item/card/id/clerk/harpy
-	name = "Public Relations Clerk badge"
-	desc = "A badge which shows social qualifications."
+	name = "public relations access badge"
+	desc = "An ID card on a lanyard. This one sports a stylized handshake between two different looking hands."
 
 /obj/item/card/id/bruiser
 	name = "member badge"
