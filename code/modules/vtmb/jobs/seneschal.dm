@@ -46,7 +46,7 @@
 	v_duty = "You are the right hand man or woman of the most powerful vampire in the city. The Camarilla trusts you to run the city, even in their stead."
 	duty = "You are the right hand man or woman of the most powerful vampire in the city. The Camarilla trusts you to run the city, even in their stead."
 	experience_addition = 15
-	allowed_bloodlines = list(CLAN_DAUGHTERS_OF_CACOPHONY, CLAN_TREMERE, CLAN_VENTRUE, CLAN_NOSFERATU, CLAN_GANGREL, CLAN_TOREADOR, CLAN_MALKAVIAN, CLAN_BANU_HAQIM, CLAN_LASOMBRA, CLAN_KIASYD)
+	allowed_bloodlines = list(CLAN_DAUGHTERS_OF_CACOPHONY, CLAN_TREMERE, CLAN_VENTRUE, CLAN_NOSFERATU, CLAN_GANGREL, CLAN_TOREADOR, CLAN_MALKAVIAN, CLAN_BANU_HAQIM, CLAN_LASOMBRA, CLAN_KIASYD, CLAN_BRUJAH, CLAN_TRUE_BRUJAH)
 
 /datum/outfit/job/clerk
 	name = "Seneschal"
