@@ -96,6 +96,24 @@
 	contains = list(/obj/item/melee/vampirearms/baseball)
 	crate_name = "weapon crate"
 
+/datum/supply_pack/vampire/potassiodide
+	name = "Potassium Iodide"
+	desc = "Contains bottle of potassium iodide."
+	cost = 400
+	contains = list(/obj/item/storage/pill_bottle/potassiodide)
+
+/datum/supply_pack/vampire/ephedrine
+	name = "Ephedrine"
+	desc = "Contains bottle of ephedrine."
+	cost = 400
+	contains = list(/obj/item/storage/pill_bottle/ephedrine)
+
+/datum/supply_pack/vampire/gas_can
+	name = "Gas Can"
+	desc = "Contains a gas can."
+	cost = 400
+	contains = list(/obj/item/gas_can/full)
+
 /datum/supply_pack/vampire/medicalsupplies
 	name = "Medical Supplies"
 	desc = "Contains some first aid supplies."
@@ -235,6 +253,15 @@
 	)
 	crate_name = "weapon crate"
 
+/datum/supply_pack/vampire/weaponcarbine
+	name = "Weapon (assault carbine)"
+	desc = "Contains an assault carbine."
+	cost = 4000
+	contains = list(
+		/obj/item/gun/ballistic/automatic/vampire/aug,
+		/obj/item/ammo_box/magazine/vampaug,)
+	crate_name = "weapon crate"
+
 /datum/supply_pack/vampire/weaponcrossbow
 	name = "Weapon (crossbow)"
 	desc = "Contains a crossbow."
@@ -261,6 +288,20 @@
 	desc = "Contains a box of 7.62x51mm ammunition."
 	cost = 2000
 	contains = list(/obj/item/ammo_box/vampire/c762x51mm)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo762x51/silver
+	name = "Ammo (7.62x51mm, Silver)"
+	desc = "Contains a box of silver 7.62x51mm ammunition."
+	cost = 4500
+	contains = list(/obj/item/ammo_box/vampire/c762x51mm/silver)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo762x51/incendiary
+	name = "Ammo (7.62x51mm, incendiary)"
+	desc = "Contains a box of incendiary 7.62x51mm ammunition."
+	cost = 5000
+	contains = list(/obj/item/ammo_box/vampire/c762x51mm/incendiary)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/vampire/ammo12g
@@ -305,6 +346,33 @@
 	contains = list(/obj/item/ammo_box/vampire/c556 = 2)
 	crate_name = "ammo crate"
 
+/datum/supply_pack/vampire/ammo9/silver
+	name = "Ammo (9mm, silver)"
+	desc = "Contains a box of silver 9mm ammunition."
+	cost = 2000
+	contains = list(/obj/item/ammo_box/vampire/c9mm/silver)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo44/silver
+	name = "Ammo (.44, silver)"
+	desc = "Contains a box of silver .44 ammunition."
+	cost = 2000
+	contains = list(/obj/item/ammo_box/vampire/c44/silver)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo45/silver
+	name = "Ammo (.45, silver)"
+	desc = "Contains a box of silver .45 ammunition."
+	cost = 2000
+	contains = list(/obj/item/ammo_box/vampire/c45acp/silver)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo556/silver
+	name = "Ammo (5.56, silver)"
+	desc = "Contains a box of silver 5.56 ammunition."
+	cost = 3000
+	contains = list(/obj/item/ammo_box/vampire/c556/silver)
+
 /datum/supply_pack/vampire/ammo50
 	name = "Ammo (.50)"
 	desc = "Contains a box of .50 ammunition."
@@ -317,6 +385,13 @@
 	desc = "Contains a box of 5.56 ammunition."
 	cost = 1500
 	contains = list(/obj/item/ammo_box/vampire/c556)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/vampire/ammo556/incendiart
+	name = "Ammo (5.56 incendiary)"
+	desc = "Contains a box of incendiary 5.56 ammunition."
+	cost = 4500
+	contains = list(/obj/item/ammo_box/vampire/c556/incendiary)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/vampire/ammobolt
@@ -382,6 +457,13 @@
 	contains = list(/obj/item/ammo_box/magazine/vamp556 = 3)
 	crate_name = "ammo crate"
 
+/datum/supply_pack/vampire/magazine_aug
+	name = "Ammo (3x AUG carbine magazine)"
+	desc = "Contains three AUG carbine magazines."
+	cost = 300
+	contains = list(/obj/item/ammo_box/magazine/vampaug = 3)
+	crate_name = "ammo crate"
+
 /datum/supply_pack/vampire/magazine_thompson
 	name = "Ammo (3x Thompson magazine)"
 	desc = "Contains three Thompson magazines."
@@ -416,6 +498,26 @@
 	contains = list(
 		/obj/item/clothing/suit/vampire/vest,
 		/obj/item/clothing/head/vampire/helmet,
+	)
+	crate_name = "armor crate"
+
+/datum/supply_pack/vampire/armorarmy
+	name = "Armor (army)"
+	desc = "Contains a single set of full army protection."
+	cost = 1500
+	contains = list(
+		/obj/item/clothing/suit/vampire/vest/army,
+		/obj/item/clothing/head/vampire/army,
+	)
+	crate_name = "armor crate"
+
+/datum/supply_pack/vampire/armoreod
+	name = "Armor (EOD)"
+	desc = "Contains a single set of full EOD protection."
+	cost = 2000
+	contains = list(
+		/obj/item/clothing/suit/vampire/eod,
+		/obj/item/clothing/head/vampire/eod,
 	)
 	crate_name = "armor crate"
 
