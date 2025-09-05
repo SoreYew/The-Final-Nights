@@ -9681,7 +9681,7 @@
 /area/vtm/financialdistrict)
 "czW" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -11236,7 +11236,7 @@
 /area/vtm/interior/giovanni)
 "cVk" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 16;
 	locked = 1;
 	dir = 4
@@ -21890,7 +21890,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -27676,7 +27676,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 9;
 	dir = 4
 	},
@@ -34764,7 +34764,7 @@
 /area/vtm/interior/police/court)
 "iTR" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 11;
 	locked = 1
 	},
@@ -35433,7 +35433,7 @@
 "jey" = (
 /obj/structure/vampdoor/old{
 	dir = 8;
-	lock_id = "triad";
+	lock_id = "axes";
 	locked = 1;
 	lockpick_difficulty = 16
 	},
@@ -57337,7 +57337,7 @@
 /area/vtm/interior/tzimisce_manor)
 "orB" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -66670,7 +66670,7 @@
 	color = "#574d46"
 	},
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -71637,7 +71637,7 @@
 /area/vtm)
 "rXn" = (
 /obj/structure/vampdoor/simple{
-	lock_id = "triad";
+	lock_id = "axes";
 	lockpick_difficulty = 24;
 	locked = 1
 	},
@@ -78555,7 +78555,7 @@
 	},
 /obj/structure/vampdoor/old{
 	dir = 1;
-	lock_id = "triad";
+	lock_id = "axes";
 	locked = 1;
 	lockpick_difficulty = 16
 	},
