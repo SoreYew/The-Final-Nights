@@ -43889,15 +43889,15 @@
 	pixel_x = 8
 	},
 /obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
+	accesslocks = list("axes","laundromat");
 	name = "Shady Chinatown Keys"
 	},
 /obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
+	accesslocks = list("axes","laundromat");
 	name = "Shady Chinatown Keys"
 	},
 /obj/item/vamp/keys{
-	accesslocks = list("triad","laundromat");
+	accesslocks = list("axes","laundromat");
 	name = "Shady Chinatown Keys"
 	},
 /obj/structure/curtain/bounty{
