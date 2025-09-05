@@ -74,7 +74,7 @@
 
 	liver_traits = list(TRAIT_MEDICAL_METABOLISM)
 
-	allowed_species = list("Ghoul", "Human", "Kuei-Jin")
+	allowed_species = list("Ghoul", "Human")
 	display_order = JOB_DISPLAY_ORDER_CLINICS_DIRECTOR
 	bounty_types = CIV_JOB_MED
 
