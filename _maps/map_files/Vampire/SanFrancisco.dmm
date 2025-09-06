@@ -27616,6 +27616,15 @@
 	base_icon_state = "canal2"
 	},
 /area/vtm/sewer)
+"hgf" = (
+/obj/structure/table,
+/obj/item/melee/vampirearms/katana,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 1
+	},
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "hgt" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
@@ -36669,6 +36678,10 @@
 	color = "#636363";
 	dir = 8
 	},
+/obj/item/binoculars{
+	pixel_y = 10
+	},
+/obj/item/binoculars,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "jtL" = (
@@ -40938,6 +40951,15 @@
 /obj/structure/vampdoor/glass,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
+"kvd" = (
+/obj/item/melee/vampirearms/katana,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 5
+	},
+/obj/structure/table,
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "kve" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -51338,14 +51360,6 @@
 	masquerade_violating = 0;
 	name = "sheriff's tactical helmet"
 	},
-/obj/item/melee/vampirearms/katana{
-	color = "#ccffff";
-	cost = 500;
-	desc = "I don't know, but somehow the Prince managed to convince the police that the Sheriff is a big fan of Japanese animation, and this katana is a replica. You can wear it without breaking the masquerade";
-	force = 50;
-	name = "Sheriff's special";
-	pixel_y = 9
-	},
 /obj/item/p25radio,
 /obj/item/p25radio,
 /obj/item/p25radio,
@@ -51364,6 +51378,14 @@
 /obj/item/clothing/head/hos/beret,
 /obj/machinery/light/prince{
 	pixel_y = 32
+	},
+/obj/item/melee/vampirearms/katana{
+	color = "#ccffff";
+	cost = 500;
+	desc = "A flimsy appearing replica katana. It looks quite sharp, despite being an apparent reference to Japanese animation. ";
+	force = 50;
+	name = "Sheriff's special";
+	pixel_y = 9
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/millennium_tower/f2)
@@ -58778,6 +58800,16 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
+"oJn" = (
+/obj/structure/table,
+/obj/item/storage/belt/vampire/sheathe/rapier,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 1
+	},
+/obj/item/melee/vampirearms/knife,
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "oJp" = (
 /turf/open/floor/plating/vampgrass,
 /area/vtm/financialdistrict)
@@ -62234,6 +62266,10 @@
 	icon_state = "stone8"
 	},
 /area/vtm/sewer/nosferatu_warren)
+"pCs" = (
+/obj/item/melee/vampirearms/katana,
+/turf/open/openspace,
+/area/vtm)
 "pCy" = (
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/sewer)
@@ -64533,15 +64569,6 @@
 	pixel_y = 5;
 	pixel_x = -4
 	},
-/obj/item/clothing/head/vampire/helmet{
-	pixel_y = 5;
-	pixel_x = -4
-	},
-/obj/item/clothing/head/vampire/helmet{
-	pixel_y = 5;
-	pixel_x = 4
-	},
-/obj/item/clothing/head/vampire/helmet,
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
 	color = "#636363"
@@ -74032,14 +74059,19 @@
 /area/vtm/interior/police/upstairs)
 "sEe" = (
 /obj/structure/table,
-/obj/item/melee/vampirearms/knife,
-/obj/item/melee/vampirearms/knife,
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
 	color = "#636363"
 	},
-/obj/item/storage/belt/vampire/sheathe/rapier,
-/obj/item/storage/belt/vampire/sheathe/rapier,
+/obj/item/clothing/head/vampire/helmet,
+/obj/item/clothing/head/vampire/helmet{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/item/clothing/head/vampire/helmet{
+	pixel_y = 5;
+	pixel_x = 4
+	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "sEh" = (
@@ -202592,7 +202624,7 @@ mjT
 sCA
 lxD
 oLX
-oLX
+oJn
 qeA
 jfZ
 fcS
@@ -202794,7 +202826,7 @@ mjT
 sCA
 cep
 oLX
-oLX
+oJn
 qeA
 cVN
 iDX
@@ -202996,7 +203028,7 @@ eUm
 sCA
 wsF
 oLX
-oLX
+hgf
 qeA
 mVF
 oRr
@@ -203198,7 +203230,7 @@ xEp
 sCA
 sCA
 oLX
-oLX
+kvd
 sCA
 sCA
 sCA
@@ -204408,7 +204440,7 @@ mjT
 mjT
 mjT
 mjT
-mjT
+pCs
 mjT
 mjT
 mjT
@@ -204613,7 +204645,7 @@ mjT
 mjT
 mjT
 mjT
-mjT
+pCs
 mjT
 mjT
 mjT
