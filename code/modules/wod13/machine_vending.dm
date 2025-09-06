@@ -236,6 +236,7 @@
 		new /datum/data/mining_equipment("respiratory aid kit", /obj/item/storage/firstaid/o2, 10),
 		new /datum/data/mining_equipment("defib batteries", /obj/item/stock_parts/cell, 10),
 		new /datum/data/mining_equipment("ephedrine pill bottle", /obj/item/storage/pill_bottle/ephedrine, 10),
+		new /datum/data/mining_equipment("potassium iodide pill bottle", /obj/item/storage/pill_bottle/potassiodide, 10),
 		new /datum/data/mining_equipment("Medicated Suture", /obj/item/stack/medical/suture/medicated, 10),
 		new /datum/data/mining_equipment("Regenerative Mesh", /obj/item/stack/medical/mesh/advanced, 10),
 		new /datum/data/mining_equipment("toxins first aid kit", /obj/item/storage/firstaid/toxin, 15),
@@ -251,10 +252,10 @@
 
 /obj/machinery/mineral/equipment_vendor/restricted/police
 	jobs_allowed = list(
-		"Police Officer" = 200,
-		"Federal Investigator" = 300,
-		"Police Sergeant" = 500,
-		"Police Chief" = 15000,	// don't you love the militirization of the police?
+		"Police Officer" = 500,
+		"Federal Investigator" = 800,
+		"Police Sergeant" = 1500,
+		"Police Chief" = 5000,	// don't you love the militirization of the police?
 	)
 	prize_list = list(
 		new /datum/data/mining_equipment("handcuffs", /obj/item/restraints/handcuffs, 1),
