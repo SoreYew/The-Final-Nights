@@ -16,6 +16,7 @@
 		new /datum/data/mining_equipment("Handcuffs", /obj/item/restraints/handcuffs, 50),
 		new /datum/data/mining_equipment("Black bag", /obj/item/clothing/head/vampire/blackbag, 50),
 		new /datum/data/mining_equipment("snub-nose revolver",	/obj/item/gun/ballistic/vampire/revolver/snub,	100),
+		nwe /datum/data/mining_equipment("9mm ammo box", /obj/item/ammo_box/vampire/c9mm, 300),
 		new /datum/data/mining_equipment("cannabis package",		/obj/item/weedpack,	700),
 		new /datum/data/mining_equipment("morphine syringe",	/obj/item/reagent_containers/syringe/contraband/morphine,	800),
 		new	/datum/data/mining_equipment("meth package",	/obj/item/reagent_containers/food/drinks/meth,	800),
@@ -73,4 +74,35 @@
 		new /datum/data/mining_equipment("rapier", /obj/item/storage/belt/vampire/sheathe/rapier, 1200),
 		new /datum/data/mining_equipment("sabre", /obj/item/storage/belt/vampire/sheathe/sabre, 1400),
 		new /datum/data/mining_equipment("longsword", /obj/item/storage/belt/vampire/sheathe/longsword, 1600)
+	)
+
+/obj/machinery/mineral/equipment_vendor/fastfood/camping
+	prize_list = list(
+		new /datum/data/mining_equipment("hunting knife", /obj/item/melee/vampirearms/knife, 85),
+		new /datum/data/mining_equipment("tent stake", /obj/item/vampire_stake, 100),
+		new /datum/data/mining_equipment("shovel", /obj/item/melee/vampirearms/shovel, 150),
+		new /datum/data/mining_equipment("binoculars", /obj/item/binoculars, 300),
+		new /datum/data/mining_equipment("camera", /obj/item/camera, 300),
+		new /datum/data/mining_equipment("machete", /obj/item/melee/vampirearms/machete, 500),
+		new /datum/data/mining_equipment("chainsaw", /obj/item/melee/vampirearms/chainsaw, 2000),
+		new /datum/data/mining_equipment("rescue fireaxe", /obj/item/melee/vampirearms/fireaxe, 3000)
+	)
+
+/obj/machinery/mineral/equipment_vendor/fastfood/general
+	prize_list = list(
+		new /datum/data/mining_equipment("wirecutters", /obj/item/wirecutters, 50),
+		new /datum/data/mining_equipment("baseball bat", /obj/item/melee/vampirearms/baseball, 50),
+		new /datum/data/mining_equipment("box of light bulbs", /obj/item/wirecutters, 100),
+		new /datum/data/mining_equipment("accordian", /datum/instrument/hardcoded/accordion, 200),
+		new /datum/data/mining_equipment("electric guitar", /datum/instrument/hardcoded/eguitar, 200),
+		new /datum/data/mining_equipment("accoustic guitar", /datum/instrument/hardcoded/guitar, 200),
+		new /datum/data/mining_equipment("hands free harmonica", /datum/instrument/hardcoded/harmonica, 200),
+		new /datum/data/mining_equipment("saxophone", /datum/instrument/hardcoded/saxophone, 200),
+		new /datum/data/mining_equipment("trombone", /datum/instrument/hardcoded/trombone, 200),
+		new /datum/data/mining_equipment("violin", /datum/instrument/hardcoded/violin, 200),
+		new /datum/data/mining_equipment("banjo", /datum/instrument/hardcoded/banjo, 200),
+		new /datum/data/mining_equipment("electronic synth", /datum/instrument/hardcoded/piano, 200),
+		new /datum/data/mining_equipment("xylophone", /datum/instrument/hardcoded/xylophone, 200),
+		new /datum/data/mining_equipment("recorder", /datum/instrument/hardcoded/recorder, 200),
+		new /datum/data/mining_equipment("glockeenspiel", /datum/instrument/hardcoded/glockenspiel, 200)
 	)

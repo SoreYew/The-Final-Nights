@@ -6533,13 +6533,14 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
 "bLX" = (
-/obj/structure/rack,
-/obj/item/clothing/gloves/vampire/leather,
-/obj/item/clothing/gloves/vampire/work,
-/obj/machinery/light{
-	dir = 1
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
 	},
-/obj/item/clothing/under/vampire/military_fatigues,
+/mob/living/carbon/human/npc/shop,
+/obj/structure/chair/office{
+	dir = 8
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "bMa" = (
@@ -10210,6 +10211,10 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/community)
+"cHB" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "cHM" = (
 /obj/structure/vamptree,
 /obj/effect/turf_decal/weather/dirt{
@@ -10876,11 +10881,14 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm)
 "cQl" = (
-/obj/structure/clothingrack/rand,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plating/parquetry,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass{
+	pixel_y = 12
+	},
+/turf/open/floor/plating/vampgrass,
 /area/vtm/interior/shop)
 "cQq" = (
 /obj/effect/turf_decal/trimline/blue/corner,
@@ -16689,6 +16697,9 @@
 /obj/structure/fireplace,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
+"esS" = (
+/turf/open/floor/plating/vampgrass,
+/area/vtm/interior/shop)
 "esW" = (
 /obj/fusebox,
 /turf/open/floor/plating/concrete,
@@ -21198,10 +21209,10 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "fxO" = (
-/obj/structure/rack,
-/obj/item/clothing/glasses/vampire/sun,
-/obj/item/clothing/glasses/vampire/yellow,
-/turf/open/floor/plating/parquetry,
+/obj/structure/flora/ausbushes/sparsegrass{
+	icon_state = "ywflowers_4"
+	},
+/turf/open/floor/plating/vampgrass,
 /area/vtm/interior/shop)
 "fyh" = (
 /obj/structure/table/wood,
@@ -26323,8 +26334,17 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/park)
 "gQC" = (
-/obj/effect/decal/wallpaper/blue,
-/turf/closed/wall/vampwall/old,
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29"
+	},
+/obj/structure/foodrack{
+	dir = 8;
+	icon_state = "rack1";
+	name = "rack";
+	desc = "Nice rack.";
+	pixel_y = 16
+	},
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "gQE" = (
 /obj/structure/vampdoor/prison{
@@ -27722,8 +27742,8 @@
 /turf/open/floor/plating/umbra,
 /area/vtm/interior/endron_facility)
 "him" = (
-/obj/structure/rack,
-/turf/open/floor/plating/parquetry,
+/obj/structure/vampdoor/glass,
+/turf/open/floor/plating/sidewalk,
 /area/vtm/interior/shop)
 "hio" = (
 /obj/structure/fluff/hedge,
@@ -31863,8 +31883,10 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/baali)
 "ikp" = (
-/obj/structure/table,
-/obj/machinery/mineral/equipment_vendor/fastfood/costumes,
+/obj/effect/decal/bordur{
+	dir = 10
+	},
+/obj/structure/fluff/hedge,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "ikt" = (
@@ -49370,11 +49392,11 @@
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer)
 "myv" = (
-/obj/structure/chair/greyscale,
-/obj/machinery/light{
-	pixel_y = 32
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass{
+	pixel_y = 12
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/vampgrass,
 /area/vtm/interior/shop)
 "myB" = (
 /obj/effect/turf_decal/siding/wood{
@@ -72034,10 +72056,10 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
 "scU" = (
-/obj/structure/rack,
-/obj/item/clothing/head/vampire/cowboy,
-/obj/item/clothing/head/vampire/british,
-/obj/item/clothing/head/vampire/skull,
+/obj/effect/decal/bordur{
+	dir = 8
+	},
+/obj/structure/fluff/hedge,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "scY" = (
@@ -72220,7 +72242,7 @@
 /turf/open/floor/plating/shit,
 /area/vtm/sewer)
 "seA" = (
-/obj/structure/clothingrack/rand,
+/obj/effect/decal/bordur,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "seE" = (
@@ -74830,7 +74852,11 @@
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/tzimisce_manor)
 "sPA" = (
-/obj/structure/clothingrack/rand{
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
 	dir = 8
 	},
 /turf/open/floor/plating/parquetry,
@@ -77819,6 +77845,12 @@
 /obj/item/clothing/mask/vampire,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
+"tCM" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/camping,
+/obj/effect/decal/bordur,
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "tCW" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
@@ -77879,6 +77911,13 @@
 	color = "#574d46"
 	},
 /turf/open/floor/carpet/red,
+/area/vtm/interior/shop)
+"tDC" = (
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/obj/structure/fluff/hedge,
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "tDD" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -80826,8 +80865,8 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sewer/nosferatu_warren)
 "urh" = (
-/obj/structure/curtain/bounty,
-/turf/open/floor/plating/parquetry,
+/obj/structure/table,
+/turf/open/floor/carpet,
 /area/vtm/interior/shop)
 "urr" = (
 /turf/closed/wall/vampwall,
@@ -91708,8 +91747,11 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm/supply)
 "xiI" = (
-/obj/structure/table,
-/turf/open/floor/plating/parquetry,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass{
+	icon_state = "ywflowers_4"
+	},
+/turf/open/floor/plating/vampgrass,
 /area/vtm/interior/shop)
 "xiN" = (
 /obj/structure/table,
@@ -174430,7 +174472,7 @@ tDS
 tDS
 nhF
 nhF
-keR
+fkV
 pJa
 kQM
 uoN
@@ -174626,13 +174668,13 @@ grP
 sEG
 sEG
 sQu
-seA
+dAZ
 seA
 fxO
-seA
+myv
 cQl
 nhF
-fkV
+keR
 rnX
 kQM
 kQM
@@ -174828,12 +174870,12 @@ veZ
 veZ
 xpq
 sQu
-dAZ
-dAZ
-dAZ
-dAZ
-dAZ
-tDS
+mAQ
+tCM
+xiI
+esS
+myv
+nkC
 keR
 rnX
 kRo
@@ -175030,11 +175072,11 @@ grP
 sEG
 mwZ
 sQu
-opG
+tDC
+seA
+fxO
+fxO
 xiI
-dAZ
-sPA
-dAZ
 tDS
 keR
 rnX
@@ -175232,11 +175274,11 @@ veZ
 veZ
 sEG
 sQu
-mAQ
+cHB
 ikp
-dAZ
 scU
-dAZ
+scU
+scU
 tDS
 keR
 rnX
@@ -175434,11 +175476,11 @@ geY
 veZ
 dKq
 sQu
-him
-xiI
-dAZ
-sPA
-dAZ
+nhF
+nhF
+nhF
+nhF
+nhF
 nhF
 cEQ
 rnX
@@ -175635,13 +175677,13 @@ geY
 grP
 geY
 sQB
-ycd
-nhF
+sQu
+dAZ
 gQC
-dAZ
-dAZ
-dAZ
-nkC
+okJ
+okJ
+okJ
+him
 keR
 rnX
 kRo
@@ -175838,12 +175880,12 @@ ycd
 ycd
 ycd
 sQu
-myv
-urh
 dAZ
-dAZ
-sPA
-nhF
+lKe
+okJ
+okJ
+okJ
+tDS
 keR
 rnX
 ddG
@@ -176039,13 +176081,13 @@ vnP
 pcC
 kyE
 gIJ
-ycd
-nhF
-gQC
-sPA
+sQu
 dAZ
-bLX
-nhF
+gQC
+okJ
+urh
+okJ
+tDS
 keR
 hLc
 wxq
@@ -176242,10 +176284,10 @@ ycd
 pnk
 gIJ
 sQu
-myv
-urh
-dAZ
-dAZ
+opG
+iOe
+jiG
+bLX
 sPA
 nhF
 keR

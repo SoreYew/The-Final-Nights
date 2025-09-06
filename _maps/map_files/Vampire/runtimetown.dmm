@@ -13,6 +13,11 @@
 /obj/item/gun/ballistic/automatic/vampire/m1911,
 /turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
+"aI" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/camping,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
 "aO" = (
 /obj/machinery/fax/admin/camarilla,
 /turf/open/floor/plating/vampbeach,
@@ -673,6 +678,11 @@
 /obj/item/ammo_box/magazine/vampthompson,
 /obj/item/ammo_box/magazine/vampthompson,
 /obj/item/gun/ballistic/automatic/vampire/thompson,
+/turf/open/floor/plating/rough,
+/area/vtm/pacificheights)
+"xV" = (
+/obj/structure/table,
+/obj/item/gun/ballistic/shotgun/vampire,
 /turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
 "xZ" = (
@@ -1921,7 +1931,7 @@ Ca
 xU
 OD
 Of
-hu
+xV
 PO
 Xz
 MS
@@ -1954,7 +1964,7 @@ PO
 PO
 PO
 PO
-PO
+hu
 PO
 PO
 PO
@@ -3041,7 +3051,7 @@ zx
 kS
 GP
 IH
-IH
+aI
 IH
 IH
 IH
@@ -3075,7 +3085,7 @@ nh
 kS
 Ta
 NR
-NR
+Ta
 NR
 NR
 NR
