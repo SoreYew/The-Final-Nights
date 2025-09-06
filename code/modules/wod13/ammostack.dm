@@ -534,7 +534,7 @@
 	icon_state = "556"
 	base_iconstate = "556"
 
-obj/item/ammo_casing/vampire/c545mm/silver
+/obj/item/ammo_casing/vampire/c545mm/silver
 	name = "5.45mm silver bullet casing"
 	desc = "a 5.45mm silver bullet casing."
 	projectile_type = /obj/projectile/beam/beam_rifle/vampire/vamp545mm/silver
