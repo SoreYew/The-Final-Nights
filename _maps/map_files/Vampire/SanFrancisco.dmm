@@ -43134,10 +43134,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/jazzclub)
-"kYM" = (
-/obj/weapon_showcase,
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/shop)
 "kZp" = (
 /obj/structure/foodrack{
 	dir = 4;
@@ -47965,14 +47961,13 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "mhj" = (
-/obj/structure/table,
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#802d29"
 	},
-/obj/item/clothing/suit/vampire/vest{
-	armor = list("melee" = 5, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 5, "wound" = 5);
-	desc = "Durable, suspiciously lightweight vest designed to protect against most threats efficiently.";
-	pixel_y = 4
+/obj/structure/musician/piano{
+	icon_state = "piano";
+	name = "piano";
+	desc = "an elegant piano"
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
@@ -51985,7 +51980,6 @@
 	},
 /area/vtm/interior/techshop)
 "ncK" = (
-/obj/weapon_showcase,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
 	dir = 4
@@ -53721,7 +53715,6 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/vtm/interior/shop)
 "nAW" = (
-/obj/weapon_showcase,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29"
 	},
@@ -59082,9 +59075,6 @@
 /area/vtm/clinic)
 "oNE" = (
 /obj/structure/table,
-/obj/item/gun/ballistic/shotgun/vampire{
-	pixel_y = 6
-	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "oNQ" = (
@@ -64577,14 +64567,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/wyrm_corrupted)
-"qhD" = (
-/obj/structure/table,
-/obj/item/ammo_box/vampire/c12g/buck{
-	pixel_y = 16;
-	pixel_x = 6
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/shop)
 "qhE" = (
 /obj/structure/railing{
 	dir = 1;
@@ -70087,7 +70069,7 @@
 /area/vtm/interior/shop)
 "rAZ" = (
 /obj/structure/table,
-/obj/machinery/mineral/equipment_vendor/fastfood/america,
+/obj/machinery/mineral/equipment_vendor/fastfood/music,
 /turf/closed/wall/vampwall/market/low,
 /area/vtm/interior/shop)
 "rBk" = (
@@ -75434,17 +75416,14 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
 "sXv" = (
-/obj/structure/table,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29"
 	},
-/obj/item/clothing/suit/vampire/vest{
-	armor = list("melee" = 5, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 5, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 5, "wound" = 5);
-	desc = "Durable, suspiciously lightweight vest designed to protect against most threats efficiently.";
-	pixel_y = 4
-	},
 /obj/flag/california{
 	pixel_y = 28
+	},
+/obj/structure/chair{
+	dir = 8
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
@@ -77547,7 +77526,6 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/techshop)
 "tzi" = (
-/obj/weapon_showcase,
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29"
 	},
@@ -80866,6 +80844,7 @@
 /area/vtm/sewer/nosferatu_warren)
 "urh" = (
 /obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/general,
 /turf/open/floor/carpet,
 /area/vtm/interior/shop)
 "urr" = (
@@ -176406,10 +176385,10 @@ lNp
 tlb
 cjj
 tYJ
-kYM
+dAZ
 oNE
-qhD
-kYM
+oNE
+dAZ
 sWU
 eWO
 eWO

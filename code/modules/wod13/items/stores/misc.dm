@@ -65,7 +65,10 @@
 		new /datum/data/mining_equipment("four-color pen",	/obj/item/pen/fourcolor,  10),
 		new /datum/data/mining_equipment("fountain pen",	/obj/item/pen/fountain,  15),
 		new /datum/data/mining_equipment("folder",	/obj/item/folder,  5),
-		new /datum/data/mining_equipment("paper bin", /obj/item/paper_bin, 20)
+		new /datum/data/mining_equipment("paper bin", /obj/item/paper_bin, 20),
+		new /datum/data/mining_equipment("box of crayons", /obj/item/storage/crayons, 10),
+		new /datum/data/mining_equipment("canvas (19x19)", /obj/item/canvas/nineteen_nineteen, 19),
+		new /datum/data/mining_equipment("spray paint", /obj/item/toy/crayon/spraycan, 25)
 	)
 
 /obj/machinery/mineral/equipment_vendor/fastfood/antique
@@ -81,18 +84,22 @@
 		new /datum/data/mining_equipment("hunting knife", /obj/item/melee/vampirearms/knife, 85),
 		new /datum/data/mining_equipment("tent stake", /obj/item/vampire_stake, 100),
 		new /datum/data/mining_equipment("shovel", /obj/item/melee/vampirearms/shovel, 150),
+		new /datum/data/mining_equipment("fishing rod",		/obj/item/fishing_rod,	200),
+		new /datum/data/mining_equipment("hunting rifle magazine, 5.56",/obj/item/ammo_box/magazine/vamp556/hunt,	200),
+		new /datum/data/mining_equipment("pepperspray", /obj/item/reagent_containers/spray/pepper, 200),
 		new /datum/data/mining_equipment("binoculars", /obj/item/binoculars, 300),
 		new /datum/data/mining_equipment("camera", /obj/item/camera, 300),
+		new /datum/data/mining_equipment("12ga shotgun shells, buckshot",/obj/item/ammo_box/vampire/c12g/buck,	400),
 		new /datum/data/mining_equipment("machete", /obj/item/melee/vampirearms/machete, 500),
+		new /datum/data/mining_equipment("hunting shotgun", /obj/item/gun/ballistic/shotgun/vampire, 1000),
 		new /datum/data/mining_equipment("chainsaw", /obj/item/melee/vampirearms/chainsaw, 2000),
-		new /datum/data/mining_equipment("rescue fireaxe", /obj/item/melee/vampirearms/fireaxe, 3000)
+		new /datum/data/mining_equipment("hunting rifle", /obj/item/gun/ballistic/automatic/vampire/huntrifle, 2000),
+		new /datum/data/mining_equipment("5.56 ammo",	/obj/item/ammo_box/vampire/c556,	2000),
+		new /datum/data/mining_equipment("rescue fireaxe", /obj/item/melee/vampirearms/fireaxe, 3000),
 	)
 
-/obj/machinery/mineral/equipment_vendor/fastfood/general
+/obj/machinery/mineral/equipment_vendor/fastfood/music
 	prize_list = list(
-		new /datum/data/mining_equipment("wirecutters", /obj/item/wirecutters, 50),
-		new /datum/data/mining_equipment("baseball bat", /obj/item/melee/vampirearms/baseball, 50),
-		new /datum/data/mining_equipment("box of light bulbs", /obj/item/wirecutters, 100),
 		new /datum/data/mining_equipment("accordian", /datum/instrument/hardcoded/accordion, 200),
 		new /datum/data/mining_equipment("electric guitar", /datum/instrument/hardcoded/eguitar, 200),
 		new /datum/data/mining_equipment("accoustic guitar", /datum/instrument/hardcoded/guitar, 200),
@@ -105,4 +112,13 @@
 		new /datum/data/mining_equipment("xylophone", /datum/instrument/hardcoded/xylophone, 200),
 		new /datum/data/mining_equipment("recorder", /datum/instrument/hardcoded/recorder, 200),
 		new /datum/data/mining_equipment("glockeenspiel", /datum/instrument/hardcoded/glockenspiel, 200)
+	)
+
+/obj/machinery/mineral/equipment_vendor/fastfood/general
+	prize_list = list(
+		new /datum/data/mining_equipment("toner cartridge", /obj/item/toner/large, 50),
+		new /datum/data/mining_equipment("shaving razor", /obj/item/razor, 50),
+		new /datum/data/mining_equipment("wirecutters", /obj/item/wirecutters, 50),
+		new /datum/data/mining_equipment("baseball bat", /obj/item/melee/vampirearms/baseball, 50),
+		new /datum/data/mining_equipment("box of light bulbs", /obj/item/wirecutters, 100),
 	)

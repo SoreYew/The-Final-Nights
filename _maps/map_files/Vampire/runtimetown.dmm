@@ -411,6 +411,11 @@
 "nY" = (
 /turf/open/floor/plating/vampcanal,
 /area/vtm/pacificheights)
+"od" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/general,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
 "of" = (
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
@@ -1290,6 +1295,11 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/market/low,
 /area/vtm/interior/shop)
+"Pj" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/music,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
 "Po" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -3050,9 +3060,9 @@ zx
 zx
 kS
 GP
-IH
 aI
-IH
+od
+Pj
 IH
 IH
 NR
@@ -3084,11 +3094,11 @@ nh
 nh
 kS
 Ta
-NR
 Ta
-NR
-NR
-NR
+Ta
+Ta
+Ta
+Ta
 NR
 NR
 NR
