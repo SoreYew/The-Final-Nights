@@ -1295,11 +1295,6 @@
 /obj/structure/table,
 /turf/closed/wall/vampwall/market/low,
 /area/vtm/interior/shop)
-"Pj" = (
-/obj/structure/table,
-/obj/machinery/mineral/equipment_vendor/fastfood/music,
-/turf/open/floor/plating/vampbeach,
-/area/vtm/pacificheights)
 "Po" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -1560,6 +1555,16 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plating/rough,
+/area/vtm/pacificheights)
+"WC" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/library,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
+"WL" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/music,
+/turf/open/floor/plating/vampbeach,
 /area/vtm/pacificheights)
 "Xf" = (
 /obj/structure/table,
@@ -3062,8 +3067,8 @@ kS
 GP
 aI
 od
-Pj
-IH
+WL
+WC
 IH
 NR
 NR
