@@ -63,5 +63,6 @@
 		new /datum/data/mining_equipment("black pen",	/obj/item/pen,  5),
 		new /datum/data/mining_equipment("four-color pen",	/obj/item/pen/fourcolor,  10),
 		new /datum/data/mining_equipment("fountain pen",	/obj/item/pen/fountain,  15),
-		new /datum/data/mining_equipment("folder",	/obj/item/folder,  5)
+		new /datum/data/mining_equipment("folder",	/obj/item/folder,  5),
+		new /datum/data/mining_equipment("paper bin", /obj/item/paper_bin, 20)
 	)

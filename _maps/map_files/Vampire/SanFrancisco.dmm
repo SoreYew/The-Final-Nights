@@ -65,15 +65,8 @@
 	dir = 1;
 	color = "#574d46"
 	},
-/obj/structure/table/wood,
-/obj/item/chair/wood{
-	pixel_y = 7;
-	pixel_x = -3
-	},
-/obj/item/chair/wood{
-	pixel_y = 11;
-	pixel_x = 2
-	},
+/obj/structure/chair/wood,
+/mob/living/carbon/human/npc/shop,
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
 "aba" = (
@@ -5417,18 +5410,9 @@
 	dir = 1;
 	color = "#574d46"
 	},
-/obj/structure/table/wood,
 /obj/machinery/light{
 	pixel_y = 32;
 	pixel_x = 16
-	},
-/obj/item/chair/wood{
-	pixel_y = 7;
-	pixel_x = -3
-	},
-/obj/item/chair/wood{
-	pixel_y = 11;
-	pixel_x = 2
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
@@ -55613,6 +55597,14 @@
 /obj/structure/coclock,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
+"nXq" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#574d46"
+	},
+/obj/structure/table/wood,
+/obj/machinery/mineral/equipment_vendor/fastfood/library,
+/turf/open/floor/carpet,
+/area/vtm/interior/chantry)
 "nXz" = (
 /obj/machinery/button/door{
 	pixel_y = 33;
@@ -67982,12 +67974,8 @@
 /turf/open/floor/plating/vampdirt,
 /area/vtm)
 "qYt" = (
-/obj/structure/flora/grass/jungle,
-/obj/item/clothing/mask/gas/tiki_mask{
-	pixel_y = 10;
-	pixel_x = -5
-	},
-/turf/open/floor/plating/vampgrass,
+/obj/structure/table/wood/fancy/blue,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/museum)
 "qYu" = (
 /obj/effect/decal/wallpaper/red/low,
@@ -68803,9 +68791,11 @@
 /turf/open/floor/plating/shit,
 /area/vtm/sewer)
 "rjf" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/ausbushes/sunnybush,
-/turf/open/floor/plating/vampgrass,
+/obj/structure/chair/office{
+	dir = 8
+	},
+/mob/living/carbon/human/npc/shop,
+/turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/museum)
 "rjh" = (
 /obj/structure/chair/office{
@@ -85678,6 +85668,10 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior)
+"vJl" = (
+/obj/effect/landmark/start/kiasyd,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/museum)
 "vJm" = (
 /turf/open/floor/plating/vampocean{
 	color = "#9ab577"
@@ -161580,7 +161574,7 @@ fTm
 mad
 vTS
 bwM
-lNi
+eWQ
 lNi
 oWn
 rwZ
@@ -161782,7 +161776,7 @@ fTm
 mNz
 vTS
 aaZ
-eKF
+nXq
 rKF
 rKF
 rKF
@@ -166230,7 +166224,7 @@ yit
 yit
 yit
 pHu
-uAK
+vJl
 uAK
 uAK
 mHz
@@ -167438,7 +167432,7 @@ rzt
 vtC
 jdm
 tKq
-jIZ
+yit
 yit
 qQg
 sLo
@@ -207841,9 +207835,9 @@ jdm
 gBp
 uAK
 uAK
-jmj
-qQg
-qQg
+uAK
+qYt
+qYt
 jmj
 qQg
 qQg
@@ -208043,9 +208037,9 @@ jdm
 gBp
 gBp
 uAK
-nZi
+uAK
 rjf
-qYt
+uAK
 jdm
 gnr
 rQk
