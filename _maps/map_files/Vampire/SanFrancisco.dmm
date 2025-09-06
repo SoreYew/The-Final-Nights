@@ -25932,12 +25932,12 @@
 /obj/structure/guncase{
 	anchored = 1
 	},
-/obj/item/gun/ballistic/automatic/vampire/aug,
-/obj/item/gun/ballistic/automatic/vampire/aug,
 /obj/effect/turf_decal/siding/white{
 	dir = 6;
 	color = "#636363"
 	},
+/obj/item/gun/ballistic/automatic/vampire/ar15,
+/obj/item/gun/ballistic/automatic/vampire/ar15,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "gKy" = (
@@ -27672,6 +27672,7 @@
 	dir = 4;
 	light_color = "#6488EA"
 	},
+/obj/item/gun/ballistic/shotgun/vampire,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
 "hhr" = (
@@ -52252,6 +52253,16 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 6
 	},
+/obj/structure/guncase{
+	anchored = 1
+	},
+/obj/item/gun/ballistic/automatic/vampire/aug,
+/obj/item/ammo_box/magazine/vampaug{
+	pixel_y = -8
+	},
+/obj/item/ammo_box/magazine/vampaug{
+	pixel_y = -8
+	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
 "ngB" = (
@@ -71907,25 +71918,17 @@
 /obj/structure/table/reinforced,
 /obj/item/ammo_box/vampire/c556,
 /obj/item/ammo_box/vampire/c556,
-/obj/item/ammo_box/magazine/vampaug{
-	pixel_y = -8
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
 	color = "#636363"
 	},
-/obj/item/ammo_box/magazine/vampaug{
-	pixel_y = -8
-	},
-/obj/item/ammo_box/magazine/vampaug{
-	pixel_y = -8
-	},
-/obj/item/ammo_box/magazine/vampaug{
-	pixel_y = -8
-	},
 /obj/keypad/armory{
 	pixel_y = 30
 	},
+/obj/item/ammo_box/magazine/vamp556,
+/obj/item/ammo_box/magazine/vamp556,
+/obj/item/ammo_box/magazine/vamp556,
+/obj/item/ammo_box/magazine/vamp556,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "sbU" = (
@@ -74029,13 +74032,14 @@
 /area/vtm/interior/police/upstairs)
 "sEe" = (
 /obj/structure/table,
-/obj/item/melee/vampirearms/katana,
 /obj/item/melee/vampirearms/knife,
 /obj/item/melee/vampirearms/knife,
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
 	color = "#636363"
 	},
+/obj/item/storage/belt/vampire/sheathe/rapier,
+/obj/item/storage/belt/vampire/sheathe/rapier,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
 "sEh" = (
@@ -78340,6 +78344,13 @@
 /obj/item/ammo_box/magazine/vamp545,
 /obj/effect/decal/bordur,
 /obj/effect/decal/graffiti,
+/obj/item/gun/ballistic/automatic/vampire/ak74{
+	pixel_y = -1;
+	pixel_x = -8
+	},
+/obj/item/ammo_box/magazine/vamp545,
+/obj/item/ammo_box/magazine/vamp545,
+/obj/item/ammo_box/magazine/vamp545,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
 "tIX" = (
@@ -92690,12 +92701,14 @@
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/littleitaly)
 "xzm" = (
-/obj/structure/table,
 /obj/machinery/light/red{
 	dir = 4
 	},
 /obj/item/gun/ballistic/automatic/vampire/ar15,
 /obj/item/ammo_box/magazine/vamp556,
+/obj/structure/guncase{
+	anchored = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/vtm/interior/millennium_tower/f3)
 "xzo" = (

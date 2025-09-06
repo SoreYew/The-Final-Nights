@@ -66,6 +66,7 @@
 		new /datum/data/mining_equipment("fountain pen",	/obj/item/pen/fountain,  15),
 		new /datum/data/mining_equipment("canvas (19x19)", /obj/item/canvas/nineteen_nineteen, 19),
 		new /datum/data/mining_equipment("paper bin", /obj/item/paper_bin, 20),
+		new /datum/data/mining_equipment("paint palette", /obj/item/paint_palette, 20),
 		new /datum/data/mining_equipment("Bible",	/obj/item/storage/book/bible,  20),
 		new /datum/data/mining_equipment("Quran",	/obj/item/vampirebook/quran,  20),
 		new /datum/data/mining_equipment("spray paint", /obj/item/toy/crayon/spraycan, 25)
