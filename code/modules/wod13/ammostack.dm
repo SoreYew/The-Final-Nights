@@ -111,12 +111,12 @@
 /obj/projectile/beam/beam_rifle/vampire/rubber
 	name = "12g shotgun rubber shot"
 	damage = 5
-	stamina = 25
+	stamina = 50
 
 /obj/projectile/beam/beam_rifle/vampire/incap
 	name = "12g shotgun incapacitation shot"
 	damage = 15
-	stamina = 60
+	stamina = 80
 
 /obj/projectile/beam/beam_rifle/vampire/vamp12g
 	name = "12g shotgun slug"
