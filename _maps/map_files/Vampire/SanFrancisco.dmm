@@ -17100,13 +17100,6 @@
 /mob/living/carbon/human/npc/hobo,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sewer)
-"eyx" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#802d29";
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "eyK" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -17392,13 +17385,6 @@
 	color = "#919191"
 	},
 /area/vtm/interior/police/upstairs)
-"eBK" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29";
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "eBM" = (
 /obj/structure/vampdoor/children_of_gaia{
 	dir = 4
@@ -34152,6 +34138,13 @@
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
+"iLv" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "iLB" = (
 /obj/effect/decal/graffiti,
 /obj/effect/decal/trash,
@@ -36621,12 +36614,6 @@
 "jsf" = (
 /turf/open/floor/plasteel/elevatorshaft,
 /area/vtm/interior/endron_facility)
-"jsp" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29"
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "jsq" = (
 /obj/effect/decal/bordur{
 	dir = 6
@@ -51761,6 +51748,13 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sewer)
+"mZs" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "mZu" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#802d29";
@@ -53618,12 +53612,6 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
-"nyS" = (
-/obj/machinery/light{
-	pixel_y = 32
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "nyT" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -58438,6 +58426,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"oDO" = (
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "oDS" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/gun/ballistic/vampire/revolver,
@@ -66392,6 +66386,12 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/cabdepot)
+"qCU" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29"
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "qCW" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#5a2355"
@@ -175799,7 +175799,7 @@ geY
 sQB
 sQu
 hTq
-jsp
+qCU
 gHj
 gHj
 gHj
@@ -176001,7 +176001,7 @@ ycd
 ycd
 sQu
 fEh
-jsp
+qCU
 gHj
 gHj
 gHj
@@ -176404,9 +176404,9 @@ ycd
 pnk
 gIJ
 sQu
-nyS
-eyx
-eBK
+oDO
+iLv
+mZs
 bLX
 sPA
 nhF
