@@ -6550,7 +6550,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "bMa" = (
 /obj/effect/turf_decal/siding/white{
@@ -17100,6 +17100,13 @@
 /mob/living/carbon/human/npc/hobo,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/sewer)
+"eyx" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "eyK" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -17385,6 +17392,13 @@
 	color = "#919191"
 	},
 /area/vtm/interior/police/upstairs)
+"eBK" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "eBM" = (
 /obj/structure/vampdoor/children_of_gaia{
 	dir = 4
@@ -26369,7 +26383,7 @@
 	desc = "Nice rack.";
 	pixel_y = 16
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "gQE" = (
 /obj/structure/vampdoor/prison{
@@ -30569,7 +30583,7 @@
 	name = "rack";
 	desc = "Nice rack."
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "hTx" = (
 /obj/structure/kitchenspike,
@@ -36607,6 +36621,12 @@
 "jsf" = (
 /turf/open/floor/plasteel/elevatorshaft,
 /area/vtm/interior/endron_facility)
+"jsp" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29"
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "jsq" = (
 /obj/effect/decal/bordur{
 	dir = 6
@@ -53598,6 +53618,12 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
+"nyS" = (
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "nyT" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -74928,7 +74954,7 @@
 	color = "#802d29";
 	dir = 8
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
 "sPB" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -80934,7 +80960,7 @@
 "urh" = (
 /obj/structure/table,
 /obj/machinery/mineral/equipment_vendor/fastfood/general,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/red,
 /area/vtm/interior/shop)
 "urr" = (
 /turf/closed/wall/vampwall,
@@ -87247,7 +87273,7 @@
 /area/vtm/pacificheights)
 "wcM" = (
 /obj/structure/table,
-/turf/open/floor/carpet,
+/turf/open/floor/carpet/red,
 /area/vtm/interior/shop)
 "wcZ" = (
 /turf/open/floor/plating/vampcanal{
@@ -175773,10 +175799,10 @@ geY
 sQB
 sQu
 hTq
-lKe
-okJ
-okJ
-okJ
+jsp
+gHj
+gHj
+gHj
 him
 keR
 rnX
@@ -175974,11 +176000,11 @@ ycd
 ycd
 ycd
 sQu
-dAZ
-lKe
-okJ
-okJ
-okJ
+fEh
+jsp
+gHj
+gHj
+gHj
 tDS
 keR
 rnX
@@ -176176,9 +176202,9 @@ pcC
 kyE
 gIJ
 sQu
-dAZ
+fEh
 gQC
-okJ
+gHj
 urh
 wcM
 tDS
@@ -176378,9 +176404,9 @@ ycd
 pnk
 gIJ
 sQu
-opG
-iOe
-jiG
+nyS
+eyx
+eBK
 bLX
 sPA
 nhF
