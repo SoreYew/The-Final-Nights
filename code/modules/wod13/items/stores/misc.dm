@@ -7,15 +7,15 @@
 		new /datum/data/mining_equipment("cannabis puff",		/obj/item/clothing/mask/cigarette/rollie/cannabis,	40),
 		new /datum/data/mining_equipment("bong",	/obj/item/bong,		50),
 		new /datum/data/mining_equipment("lockpick",	/obj/item/vamp/keys/hack, 50),
+		new /datum/data/mining_equipment("Handcuffs", /obj/item/restraints/handcuffs, 50),
+		new /datum/data/mining_equipment("Black bag", /obj/item/clothing/head/vampire/blackbag, 50),
 		new /datum/data/mining_equipment("LSD pill bottle",		/obj/item/storage/pill_bottle/lsd,	50),
 		new /datum/data/mining_equipment("knife",	/obj/item/melee/vampirearms/knife,	85),
 		new /datum/data/mining_equipment("switchblade",	/obj/item/melee/vampirearms/knife/switchblade, 85),
 		new /datum/data/mining_equipment("stake",	/obj/item/vampire_stake,	100),
-		new /datum/data/mining_equipment("pliers",	/obj/item/wirecutters/pliers/bad_pliers,	200),
 		new /datum/data/mining_equipment("Surgery dufflebag", /obj/item/storage/backpack/duffelbag/med/surgery, 100),
-		new /datum/data/mining_equipment("Handcuffs", /obj/item/restraints/handcuffs, 50),
-		new /datum/data/mining_equipment("Black bag", /obj/item/clothing/head/vampire/blackbag, 50),
 		new /datum/data/mining_equipment("snub-nose revolver",	/obj/item/gun/ballistic/vampire/revolver/snub,	100),
+		new /datum/data/mining_equipment("pliers",	/obj/item/wirecutters/pliers/bad_pliers,	200),
 		new /datum/data/mining_equipment("9mm ammo box", /obj/item/ammo_box/vampire/c9mm, 300),
 		new /datum/data/mining_equipment("cannabis package",		/obj/item/weedpack,	700),
 		new /datum/data/mining_equipment("morphine syringe",	/obj/item/reagent_containers/syringe/contraband/morphine,	800),
@@ -25,29 +25,30 @@
 
 /obj/machinery/mineral/equipment_vendor/fastfood/pharmacy
 	prize_list = list(
+		new /datum/data/mining_equipment("dropper", /obj/item/reagent_containers/dropper, 25),
+		new /datum/data/mining_equipment("gauze wrap", /obj/item/stack/medical/gauze, 50),
 		new /datum/data/mining_equipment("bruise pack", /obj/item/stack/medical/bruise_pack, 100),
 		new /datum/data/mining_equipment("burn ointment", /obj/item/stack/medical/ointment, 100),
 		new /datum/data/mining_equipment("potassium iodide pill bottle", /obj/item/storage/pill_bottle/potassiodide, 100),
+		new /datum/data/mining_equipment("surgical tape", /obj/item/stack/sticky_tape/surgical, 100),
+		new /datum/data/mining_equipment("sutures", /obj/item/stack/medical/suture, 100),
 		new /datum/data/mining_equipment("latex gloves", /obj/item/clothing/gloves/vampire/latex, 150),
 		new /datum/data/mining_equipment("iron pill bottle", /obj/item/storage/pill_bottle/iron, 150),
 		new /datum/data/mining_equipment("ephedrine pill bottle", /obj/item/storage/pill_bottle/ephedrine, 200),
-		new /datum/data/mining_equipment("box of syringes", /obj/item/storage/box/syringes, 300),
 		new /datum/data/mining_equipment("straight jacket", /obj/item/clothing/suit/straight_jacket, 200),
-		new /datum/data/mining_equipment("gauze wrap", /obj/item/stack/medical/gauze, 50),
-		new /datum/data/mining_equipment("dropper", /obj/item/reagent_containers/dropper, 25),
-		new /datum/data/mining_equipment("surgical tape", /obj/item/stack/sticky_tape/surgical, 100),
-		new /datum/data/mining_equipment("sutures", /obj/item/stack/medical/suture, 100),
+		new /datum/data/mining_equipment("box of syringes", /obj/item/storage/box/syringes, 300),
 		new /datum/data/mining_equipment("organ transport container", /obj/item/storage/organbox, 500)
 	)
 
 
 /obj/machinery/mineral/equipment_vendor/fastfood/smoking
-	prize_list = list(new /datum/data/mining_equipment("malboro",	/obj/item/storage/fancy/cigarettes/cigpack_robust,	50),
+	prize_list = list(
+		new /datum/data/mining_equipment("lighter",		/obj/item/lighter/greyscale,	10),
+				new /datum/data/mining_equipment("zippo lighter",	/obj/item/lighter,	20),
 		new /datum/data/mining_equipment("newport",		/obj/item/storage/fancy/cigarettes/cigpack_xeno,	30),
 		new /datum/data/mining_equipment("camel",	/obj/item/storage/fancy/cigarettes/dromedaryco,	30),
 		new /datum/data/mining_equipment("carp classic",	/obj/item/storage/fancy/cigarettes/cigpack_carp,	30),
-		new /datum/data/mining_equipment("zippo lighter",	/obj/item/lighter,	20),
-		new /datum/data/mining_equipment("lighter",		/obj/item/lighter/greyscale,	10),
+		new /datum/data/mining_equipment("malboro",	/obj/item/storage/fancy/cigarettes/cigpack_robust,	50),
 		new /datum/data/mining_equipment("robust gold", /obj/item/storage/fancy/cigarettes/cigpack_robustgold, 100),
 		new /datum/data/mining_equipment("cigar ", /obj/item/storage/fancy/cigarettes/cigars, 100),
 		new /datum/data/mining_equipment("havana cigar", /obj/item/storage/fancy/cigarettes/cigars/havana, 100),
