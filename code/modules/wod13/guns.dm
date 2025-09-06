@@ -108,7 +108,7 @@
 
 /obj/item/gun/ballistic/vampire/revolver/snub
 	name = "\improper snub-nosed revolver"
-	desc = "a cheap Saturday night special revolver. Sometimes called a 'purse gun'. It takes 9mm rounds."
+	desc = "a cheap Saturday night special revolver. Sometimes called a 'purse gun'. It takes 9mm ammo."
 	icon_state = "revolver_snub"
 	inhand_icon_state = "revolver_snub"
 	worn_icon_state = "revolver_snub"
@@ -390,7 +390,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/uzi
 	name = "\improper Killamatic Uzi"
-	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
+	desc = "The most sold submachine gun ever made. Open-bolt, blowback perfection. Uses 9mm ammo."
 	icon_state = "uzi"
 	inhand_icon_state = "uzi"
 	worn_icon_state = "uzi"
@@ -423,7 +423,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/mp5
 	name = "\improper HK MP5"
-	desc = "A lightweight, burst-fire submachine gun, for when you really want to do some dirty cool job. Uses 9mm rounds."
+	desc = "A lightweight, burst-fire submachine gun, for when you really want to do some dirty cool job. Uses 9mm ammo."
 	icon_state = "mp5"
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	inhand_icon_state = "mp5"
@@ -456,7 +456,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/mp7
 	name = "\improper HK MP7"
-	desc = "A lightweight, burst-fire submachine gun. Uses 4.6mm."
+	desc = "A lightweight, burst-fire submachine gun, for the discerning professional. Uses 4.6mm ammo."
 	icon_state = "mp7"
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	inhand_icon_state = "mp7"
@@ -519,7 +519,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/huntrifle
 	name = "hunting rifle"
-	desc = "A semi-automatic hunting rifle, just like what your dad used to shoot. If your dad didn't get lost in the woods, anyway."
+	desc = "A semi-automatic hunting rifle, favored by game hunters and rangers alike. Uses 5.56 ammo."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "huntrifle"
 	inhand_icon_state = "huntrifle"
@@ -528,7 +528,7 @@
 	weapon_weight = WEAPON_MEDIUM
 	mag_type = /obj/item/ammo_box/magazine/vamp556/hunt
 	burst_size = 1
-	fire_delay = 1
+	fire_delay = 3
 	spread = 2
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
@@ -555,7 +555,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/ak74
 	name = "\improper Kalashnikov Assault Rifle Model 1974"
-	desc = "A favorite among anti-regime forces worldwide. This one appears to be a civilian export model, from some country or another. Uses 5.45 rounds."
+	desc = "A favorite among anti-regime forces worldwide. This one appears to be a civilian sport model, from some country or another. Uses 5.45 ammo."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "ak74"
 	inhand_icon_state = "ak74"
