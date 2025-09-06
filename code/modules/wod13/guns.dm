@@ -249,7 +249,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/glock19
 	name = "\improper Brokk 19"
-	desc = "Very fast 9mm handgun."
+	desc = "Burst fire 9mm handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
 	worn_icon_state = "glock19"
@@ -290,7 +290,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/glock21
 	name = "\improper Brokk 21"
-	desc = "Very fast 45 ACP handgun."
+	desc = "Burst fire 45 ACP handgun."
 	icon_state = "glock19"
 	inhand_icon_state = "glock19"
 	worn_icon_state = "glock19"
@@ -496,7 +496,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/ar15
 	name = "\improper AR-15 Carbine"
-	desc = "A two-round burst 5.56 toploading carbine, designated 'AR-15'."
+	desc = "A two-round burst 5.56 carbine with a carry handle. I ain't no senator's son, son."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "rifle"
 	inhand_icon_state = "rifle"
@@ -519,7 +519,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/huntrifle
 	name = "hunting rifle"
-	desc = "A semi-automatic hunting rifle, just like what your dad used to shoot. If your dad didn't go out to get milk, anyways."
+	desc = "A semi-automatic hunting rifle, just like what your dad used to shoot. If your dad didn't get lost in the woods, anyway."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "huntrifle"
 	inhand_icon_state = "huntrifle"
@@ -554,8 +554,8 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/gun/ballistic/automatic/vampire/ak74
-	name = "\improper Kalashnikov's Automatic Rifle 74"
-	desc = "Pretty old, but also easy fireable and cleanable by vodka.Uses 5.45 rounds."
+	name = "\improper Kalashnikov Assault Rifle Model 1974"
+	desc = "A favorite among anti-regime forces worldwide. This one appears to be an civilian export model, from some country or another. Uses 5.45 rounds."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "ak74"
 	inhand_icon_state = "ak74"
@@ -563,10 +563,10 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_MEDIUM
 	mag_type = /obj/item/ammo_box/magazine/vamp545
-	recoil = 5
-	burst_size = 3
-	fire_delay = 3
-	spread = 8
+	recoil = 3
+	burst_size = 1
+	fire_delay = 1
+	spread = 5
 	bolt_type = BOLT_TYPE_LOCKING
 	show_bolt_icon = FALSE
 	mag_display = TRUE
@@ -592,7 +592,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/aug
 	name = "\improper Steyr AUG-77"
-	desc = "A three-round burst 5.56 bullpup design, designated 'Steyr AUG-77'."
+	desc = "A favorite among Eastern-European professionals. Merry Christmas."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "aug"
 	inhand_icon_state = "aug"
@@ -629,7 +629,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/thompson
 	name = "\improper Thompson Submachine Gun"
-	desc = "\"Mamma-mia, Mercurio! Yu shot 'im in da head, he can't speek now! Yu guappo, Mercurio, yu naturale guappo!\""
+	desc = "\"Arrivederci, you dumb motherfucker. \""
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "thompson"
 	inhand_icon_state = "thompson"
