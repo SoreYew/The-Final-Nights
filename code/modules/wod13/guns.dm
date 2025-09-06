@@ -629,7 +629,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/thompson
 	name = "\improper Thompson Submachine Gun"
-	desc = "\"Arrivederci, you dumb motherfucker. \""
+	desc = "\"Arrivederci, you dumb motherfucker.\""
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "thompson"
 	inhand_icon_state = "thompson"
