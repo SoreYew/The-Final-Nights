@@ -9440,12 +9440,6 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
-"cwy" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29"
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "cwz" = (
 /obj/effect/decal/wallpaper/grey/low,
 /obj/machinery/light/dim,
@@ -17557,8 +17551,7 @@
 /area/vtm/interior/shop)
 "eDs" = (
 /obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29";
-	dir = 8
+	color = "#802d29"
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
@@ -21158,6 +21151,13 @@
 	},
 /turf/open/floor/plating/shit,
 /area/vtm/sewer/nosferatu_warren)
+"fwP" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "fwS" = (
 /obj/structure/table,
 /obj/structure/microscope{
@@ -34415,6 +34415,13 @@
 /obj/structure/vamprocks,
 /turf/open/floor/plating/vampgrass,
 /area/vtm/interior/techshop)
+"iPU" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "iQl" = (
 /obj/structure/railing/metal{
 	dir = 9;
@@ -42368,13 +42375,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f2)
-"kNR" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#802d29";
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "kOa" = (
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer)
@@ -44211,6 +44211,8 @@
 	pixel_y = 4;
 	pixel_x = 2
 	},
+/obj/item/melee/vampirearms/machete,
+/obj/item/melee/vampirearms/machete,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch/basement)
 "lkj" = (
@@ -94122,12 +94124,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
-"xOf" = (
-/obj/machinery/light{
-	pixel_y = 32
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "xOE" = (
 /obj/effect/decal/asphaltline/alt{
 	pixel_x = -14
@@ -94429,6 +94425,12 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/financialdistrict)
+"xSV" = (
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "xSW" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/parquetry/old,
@@ -175791,7 +175793,7 @@ geY
 sQB
 sQu
 hTq
-cwy
+eDs
 gHj
 gHj
 gHj
@@ -175993,7 +175995,7 @@ ycd
 ycd
 sQu
 fEh
-cwy
+eDs
 gHj
 gHj
 gHj
@@ -176396,9 +176398,9 @@ ycd
 pnk
 gIJ
 sQu
-xOf
-kNR
-eDs
+xSV
+iPU
+fwP
 bLX
 sPA
 nhF
