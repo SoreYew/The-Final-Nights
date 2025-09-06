@@ -3783,6 +3783,15 @@
 	},
 /turf/open/floor/plating/stone,
 /area/vtm/interior/giovanni/basement)
+"bax" = (
+/obj/effect/decal/bordur{
+	dir = 8
+	},
+/obj/structure/chair/pew/left{
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "baE" = (
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
@@ -10221,7 +10230,12 @@
 /turf/open/floor/plating/vampgrass,
 /area/vtm/pacificheights/community)
 "cHB" = (
-/obj/structure/fluff/hedge,
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#39537F"
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "cHM" = (
@@ -10893,11 +10907,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/sparsegrass{
-	pixel_y = 12
+/obj/effect/decal/bordur{
+	dir = 4
 	},
-/turf/open/floor/plating/vampgrass,
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "cQq" = (
 /obj/effect/turf_decal/trimline/blue/corner,
@@ -11739,6 +11752,13 @@
 /obj/structure/railing,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
+"dbH" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#39537F";
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "dbK" = (
 /obj/machinery/light/prince,
 /turf/closed/wall/vampwall/rich/old,
@@ -13660,6 +13680,13 @@
 	},
 /turf/open/floor/plating/vampdirt,
 /area/vtm/interior/ghetto)
+"dAU" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#39537F";
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "dAZ" = (
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
@@ -31497,6 +31524,17 @@
 	},
 /turf/open/floor/plating/vampdirt/rails,
 /area/vtm/supply)
+"ifs" = (
+/obj/structure/foodrack{
+	pixel_x = 3;
+	icon_state = "rack1";
+	pixel_y = -19;
+	plane = 4.7;
+	name = "rack";
+	desc = "Nice rack."
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "ift" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 6
@@ -31896,7 +31934,6 @@
 /obj/effect/decal/bordur{
 	dir = 10
 	},
-/obj/structure/fluff/hedge,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "ikt" = (
@@ -32460,6 +32497,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
+"iqJ" = (
+/obj/effect/decal/bordur{
+	dir = 6
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "iqK" = (
 /turf/open/floor/plating/rough{
 	icon_state = "carpet_black"
@@ -35285,6 +35328,9 @@
 /area/vtm/interior/littleitaly)
 "jbU" = (
 /obj/structure/coclock,
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#39537F"
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "jca" = (
@@ -53563,6 +53609,12 @@
 	},
 /turf/open/floor/plating/vampcanal,
 /area/vtm/sewer)
+"nyN" = (
+/obj/effect/decal/bordur{
+	dir = 4
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "nyT" = (
 /obj/effect/decal/bordur{
 	dir = 1
@@ -53740,10 +53792,8 @@
 /area/vtm/interior/shop)
 "nAW" = (
 /obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29"
-	},
-/obj/flag/usa{
-	pixel_y = 29
+	color = "#39537F";
+	dir = 4
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
@@ -55973,6 +56023,13 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/endron_facility)
+"ocp" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#39537F";
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "ocs" = (
 /obj/effect/decal/bordur,
 /obj/structure/railing/metal,
@@ -59099,6 +59156,10 @@
 /area/vtm/clinic)
 "oNE" = (
 /obj/structure/table,
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#39537F";
+	dir = 8
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "oNQ" = (
@@ -72071,7 +72132,8 @@
 /obj/effect/decal/bordur{
 	dir = 8
 	},
-/obj/structure/fluff/hedge,
+/obj/structure/table/wood,
+/obj/item/melee/vampirearms/shovel,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "scY" = (
@@ -72255,6 +72317,7 @@
 /area/vtm/sewer)
 "seA" = (
 /obj/effect/decal/bordur,
+/obj/structure/table/wood,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "seE" = (
@@ -75455,9 +75518,6 @@
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29"
 	},
-/obj/flag/california{
-	pixel_y = 28
-	},
 /obj/structure/chair{
 	dir = 8
 	},
@@ -77860,9 +77920,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "tCM" = (
-/obj/structure/table,
 /obj/machinery/mineral/equipment_vendor/fastfood/camping,
 /obj/effect/decal/bordur,
+/obj/structure/table/wood,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "tCW" = (
@@ -77927,10 +77987,12 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/shop)
 "tDC" = (
-/obj/machinery/light{
-	pixel_y = 32
+/obj/effect/decal/bordur{
+	dir = 8
 	},
-/obj/structure/fluff/hedge,
+/obj/structure/chair/pew/right{
+	dir = 8
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "tDD" = (
@@ -87101,6 +87163,10 @@
 /area/vtm/pacificheights)
 "wbG" = (
 /mob/living/carbon/human/npc/shop,
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#39537F";
+	dir = 4
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "wbJ" = (
@@ -87665,7 +87731,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
-/turf/open/floor/plating/parquetry,
+/turf/open/floor/carpet/blue,
 /area/vtm/interior/shop)
 "wjw" = (
 /obj/structure/vamptree{
@@ -93491,6 +93557,10 @@
 /area/vtm/interior/shop)
 "xHT" = (
 /obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#39537F";
 	dir = 1
 	},
 /turf/open/floor/plating/parquetry,
@@ -174693,9 +174763,9 @@ sEG
 sEG
 sQu
 dAZ
-seA
-fxO
-myv
+iqJ
+nyN
+nyN
 cQl
 nhF
 keR
@@ -175096,7 +175166,7 @@ grP
 sEG
 mwZ
 sQu
-tDC
+opG
 seA
 fxO
 fxO
@@ -175298,10 +175368,10 @@ veZ
 veZ
 sEG
 sQu
-cHB
+dAZ
 ikp
-scU
-scU
+bax
+tDC
 scU
 tDS
 keR
@@ -175420,7 +175490,7 @@ qbT
 tlb
 qsQ
 tYJ
-nAW
+lKe
 gHj
 gHj
 cAt
@@ -175702,8 +175772,8 @@ grP
 geY
 sQB
 sQu
-dAZ
-gQC
+ifs
+lKe
 okJ
 okJ
 okJ
@@ -176027,9 +176097,9 @@ fAp
 jsI
 tYJ
 jbU
-dAZ
+nAW
 wbG
-dAZ
+dbH
 sWU
 eWO
 eWO
@@ -176228,8 +176298,8 @@ uic
 uic
 fBK
 tYJ
-opG
-dAZ
+cHB
+qii
 wji
 xHT
 sWU
@@ -176430,10 +176500,10 @@ lNp
 tlb
 cjj
 tYJ
-dAZ
+dAU
 oNE
 oNE
-dAZ
+ocp
 sWU
 eWO
 eWO
