@@ -51894,6 +51894,11 @@
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/giovanni)
+"mTc" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/general,
+/turf/closed/wall/vampwall/brick/low,
+/area/vtm/interior/shop)
 "mTg" = (
 /turf/open/floor/plating/concrete,
 /area/vtm)
@@ -63106,6 +63111,13 @@
 /obj/structure/methlab,
 /turf/open/floor/plating/toilet,
 /area/vtm/hotel)
+"pAV" = (
+/obj/effect/decal/bordur{
+	dir = 1
+	},
+/mob/living/carbon/human/npc/shop,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/pacificheights)
 "pAY" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large,
@@ -143339,7 +143351,7 @@ dSH
 iQQ
 dSH
 dSH
-rQf
+pAV
 pUu
 klQ
 qLb
@@ -146984,7 +146996,7 @@ thT
 dtp
 gXN
 biN
-biN
+mTc
 biN
 blS
 gXN
