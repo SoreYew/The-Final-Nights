@@ -66,3 +66,11 @@
 		new /datum/data/mining_equipment("folder",	/obj/item/folder,  5),
 		new /datum/data/mining_equipment("paper bin", /obj/item/paper_bin, 20)
 	)
+
+/obj/machinery/mineral/equipment_vendor/fastfood/antique
+	prize_list = list(
+		new /datum/data/mining_equipment("katana", /obj/item/melee/vampirearms/katana, 1000),
+		new /datum/data/mining_equipment("rapier", /obj/item/melee/vampirearms/rapier, 1200),
+		new /datum/data/mining_equipment("sabre", /obj/item/melee/vampirearms/sabre, 1400),
+		new /datum/data/mining_equipment("longsword", /obj/item/melee/vampirearms/longsword, 1600)
+	)
