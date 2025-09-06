@@ -32,7 +32,12 @@
 		new /datum/data/mining_equipment("iron pill bottle", /obj/item/storage/pill_bottle/iron, 150),
 		new /datum/data/mining_equipment("ephedrine pill bottle", /obj/item/storage/pill_bottle/ephedrine, 200),
 		new /datum/data/mining_equipment("box of syringes", /obj/item/storage/box/syringes, 300),
-		new /datum/data/mining_equipment("straight jacket", /obj/item/clothing/suit/straight_jacket, 200)
+		new /datum/data/mining_equipment("straight jacket", /obj/item/clothing/suit/straight_jacket, 200),
+		new /datum/data/mining_equipment("gauze wrap", /obj/item/stack/medical/gauze, 50),
+		new /datum/data/mining_equipment("dropper", /obj/item/reagent_containers/dropper, 25),
+		new /datum/data/mining_equipment("surgical tape", /obj/item/stack/sticky_tape/surgical, 100),
+		new /datum/data/mining_equipment("sutures", /obj/item/stack/medical/suture, 100),
+		new /datum/data/mining_equipment("organ transport container", /obj/item/storage/organbox, 500)
 	)
 
 
