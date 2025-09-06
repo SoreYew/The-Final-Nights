@@ -555,7 +555,7 @@
 
 /obj/item/gun/ballistic/automatic/vampire/ak74
 	name = "\improper Kalashnikov Assault Rifle Model 1974"
-	desc = "A favorite among anti-regime forces worldwide. This one appears to be an civilian export model, from some country or another. Uses 5.45 rounds."
+	desc = "A favorite among anti-regime forces worldwide. This one appears to be a civilian export model, from some country or another. Uses 5.45 rounds."
 	icon = 'code/modules/wod13/48x32weapons.dmi'
 	icon_state = "ak74"
 	inhand_icon_state = "ak74"
