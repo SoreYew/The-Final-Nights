@@ -30505,6 +30505,11 @@
 "hTl" = (
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior)
+"hTq" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/machinery/mineral/equipment_vendor/fastfood/antique,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/interior/museum)
 "hTx" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/plating/stone,
@@ -207836,7 +207841,7 @@ gBp
 uAK
 uAK
 uAK
-qYt
+hTq
 qYt
 jmj
 qQg

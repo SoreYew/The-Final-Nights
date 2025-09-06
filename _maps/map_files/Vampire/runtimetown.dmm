@@ -1020,6 +1020,11 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/pacificheights)
+"GP" = (
+/obj/structure/table,
+/obj/machinery/mineral/equipment_vendor/fastfood/antique,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
 "GS" = (
 /obj/structure/vampdoor/police,
 /turf/open/floor/plating/concrete,
@@ -1070,6 +1075,10 @@
 	},
 /turf/open/floor/plating/vampdirt/rails,
 /area/vtm/supply)
+"IH" = (
+/obj/structure/table,
+/turf/open/floor/plating/vampbeach,
+/area/vtm/pacificheights)
 "IO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1369,6 +1378,10 @@
 /obj/structure/table,
 /obj/vampire_computer/prince,
 /turf/open/floor/plating/rough,
+/area/vtm/pacificheights)
+"Ta" = (
+/mob/living/carbon/human/npc/shop,
+/turf/open/floor/plating/vampbeach,
 /area/vtm/pacificheights)
 "Tb" = (
 /obj/machinery/iv_drip,
@@ -3026,12 +3039,12 @@ kS
 zx
 zx
 kS
-NR
-NR
-NR
-NR
-NR
-NR
+GP
+IH
+IH
+IH
+IH
+IH
 NR
 NR
 NR
@@ -3060,7 +3073,7 @@ yt
 nh
 nh
 kS
-NR
+Ta
 NR
 NR
 NR
