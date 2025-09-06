@@ -14,7 +14,6 @@
 	blockade_warning = "Unknown issue detected. Delivery impossible."
 	req_access = list(ACCESS_QM)
 	is_express = TRUE
-	locked = TRUE
 
 	var/list/order_queue = list()
 	var/message
@@ -26,7 +25,7 @@
 	var/area/landingzone = /area/quartermaster/storage //where we droppin boys
 	var/podType = /obj/structure/closet/supplypod/centcompod
 	var/cooldown = 0 //cooldown to prevent printing supplypod beacon spam
-	var/locked = FALSE //is the console locked? unlock with ID
+	var/locked = TRUE //is the console locked? unlock with ID
 	var/usingBeacon = TRUE //is the console in beacon mode? exists to let beacon know when a pod may come in
 	var/account_balance = 100
 	var/max_orders = 10
