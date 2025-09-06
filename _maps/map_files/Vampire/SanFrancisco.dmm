@@ -9440,6 +9440,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/jazzclub)
+"cwy" = (
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29"
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "cwz" = (
 /obj/effect/decal/wallpaper/grey/low,
 /obj/machinery/light/dim,
@@ -17550,13 +17556,12 @@
 /turf/open/floor/plating/bacotell,
 /area/vtm/interior/shop)
 "eDs" = (
-/obj/item/kirbyplants{
-	icon_state = "plant5";
-	pixel_x = 11;
-	pixel_y = 19
+/obj/effect/turf_decal/siding/wideplating{
+	color = "#802d29";
+	dir = 8
 	},
-/turf/open/openspace,
-/area/vtm)
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "eDt" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#004136";
@@ -34138,13 +34143,6 @@
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
-"iLv" = (
-/obj/effect/turf_decal/siding/wideplating/corner{
-	color = "#802d29";
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "iLB" = (
 /obj/effect/decal/graffiti,
 /obj/effect/decal/trash,
@@ -42370,6 +42368,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f2)
+"kNR" = (
+/obj/effect/turf_decal/siding/wideplating/corner{
+	color = "#802d29";
+	dir = 8
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "kOa" = (
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/sewer)
@@ -51748,13 +51753,6 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/vampdirt,
 /area/vtm/sewer)
-"mZs" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29";
-	dir = 8
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "mZu" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
 	color = "#802d29";
@@ -58426,12 +58424,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
-"oDO" = (
-/obj/machinery/light{
-	pixel_y = 32
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "oDS" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/gun/ballistic/vampire/revolver,
@@ -66386,12 +66378,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/cabdepot)
-"qCU" = (
-/obj/effect/turf_decal/siding/wideplating{
-	color = "#802d29"
-	},
-/turf/open/floor/plating/circled,
-/area/vtm/interior/shop)
 "qCW" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#5a2355"
@@ -94136,6 +94122,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
+"xOf" = (
+/obj/machinery/light{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/circled,
+/area/vtm/interior/shop)
 "xOE" = (
 /obj/effect/decal/asphaltline/alt{
 	pixel_x = -14
@@ -165790,7 +165782,7 @@ jdm
 mHz
 jmj
 qQg
-keW
+mHz
 qQg
 jmj
 jmj
@@ -175799,7 +175791,7 @@ geY
 sQB
 sQu
 hTq
-qCU
+cwy
 gHj
 gHj
 gHj
@@ -176001,7 +175993,7 @@ ycd
 ycd
 sQu
 fEh
-qCU
+cwy
 gHj
 gHj
 gHj
@@ -176404,9 +176396,9 @@ ycd
 pnk
 gIJ
 sQu
-oDO
-iLv
-mZs
+xOf
+kNR
+eDs
 bLX
 sPA
 nhF
@@ -245143,7 +245135,7 @@ mjT
 mjT
 mjT
 mjT
-eDs
+mjT
 mjT
 mjT
 mjT
