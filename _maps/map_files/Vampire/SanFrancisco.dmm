@@ -5825,6 +5825,15 @@
 	icon_state = "stone8"
 	},
 /area/vtm/forest/caves)
+"bBB" = (
+/obj/structure/table,
+/obj/item/melee/vampirearms/katana,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 1
+	},
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "bCh" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -27616,15 +27625,6 @@
 	base_icon_state = "canal2"
 	},
 /area/vtm/sewer)
-"hgf" = (
-/obj/structure/table,
-/obj/item/melee/vampirearms/katana,
-/obj/effect/turf_decal/siding/white{
-	color = "#636363";
-	dir = 1
-	},
-/turf/open/floor/plating/granite/black,
-/area/vtm/interior/millennium_tower/f2)
 "hgt" = (
 /obj/structure/table/wood,
 /turf/open/floor/plating/woodfancy,
@@ -40951,15 +40951,6 @@
 /obj/structure/vampdoor/glass,
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
-"kvd" = (
-/obj/item/melee/vampirearms/katana,
-/obj/effect/turf_decal/siding/white{
-	color = "#636363";
-	dir = 5
-	},
-/obj/structure/table,
-/turf/open/floor/plating/granite/black,
-/area/vtm/interior/millennium_tower/f2)
 "kve" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -58800,16 +58791,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
-"oJn" = (
-/obj/structure/table,
-/obj/item/storage/belt/vampire/sheathe/rapier,
-/obj/effect/turf_decal/siding/white{
-	color = "#636363";
-	dir = 1
-	},
-/obj/item/melee/vampirearms/knife,
-/turf/open/floor/plating/granite/black,
-/area/vtm/interior/millennium_tower/f2)
 "oJp" = (
 /turf/open/floor/plating/vampgrass,
 /area/vtm/financialdistrict)
@@ -61501,6 +61482,10 @@
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/baywalk)
+"psU" = (
+/obj/item/melee/vampirearms/katana,
+/turf/open/openspace,
+/area/vtm)
 "psW" = (
 /obj/effect/decal/trash{
 	icon_state = "trash8"
@@ -62266,10 +62251,6 @@
 	icon_state = "stone8"
 	},
 /area/vtm/sewer/nosferatu_warren)
-"pCs" = (
-/obj/item/melee/vampirearms/katana,
-/turf/open/openspace,
-/area/vtm)
 "pCy" = (
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/sewer)
@@ -67694,6 +67675,16 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/museum)
+"qUp" = (
+/obj/structure/table,
+/obj/item/storage/belt/vampire/sheathe/rapier,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 1
+	},
+/obj/item/melee/vampirearms/knife,
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "qUq" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/effect/turf_decal/weather/dirt{
@@ -69232,6 +69223,15 @@
 /obj/item/toy/figure/ian,
 /turf/closed/wall/vampwall/junk/low,
 /area/vtm/sewer/nosferatu_warren)
+"roz" = (
+/obj/item/melee/vampirearms/katana,
+/obj/effect/turf_decal/siding/white{
+	color = "#636363";
+	dir = 5
+	},
+/obj/structure/table,
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/millennium_tower/f2)
 "roD" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -202624,7 +202624,7 @@ mjT
 sCA
 lxD
 oLX
-oJn
+qUp
 qeA
 jfZ
 fcS
@@ -202826,7 +202826,7 @@ mjT
 sCA
 cep
 oLX
-oJn
+qUp
 qeA
 cVN
 iDX
@@ -203028,7 +203028,7 @@ eUm
 sCA
 wsF
 oLX
-hgf
+bBB
 qeA
 mVF
 oRr
@@ -203230,7 +203230,7 @@ xEp
 sCA
 sCA
 oLX
-kvd
+roz
 sCA
 sCA
 sCA
@@ -204440,7 +204440,7 @@ mjT
 mjT
 mjT
 mjT
-pCs
+psU
 mjT
 mjT
 mjT
@@ -204645,7 +204645,7 @@ mjT
 mjT
 mjT
 mjT
-pCs
+psU
 mjT
 mjT
 mjT
