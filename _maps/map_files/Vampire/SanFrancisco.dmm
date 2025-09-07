@@ -88311,11 +88311,10 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
 "wbG" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/shop)
+/obj/effect/decal/wallpaper/red,
+/obj/machinery/light,
+/turf/closed/wall/vampwall/market,
+/area/vtm/interior)
 "wbJ" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -176763,8 +176762,8 @@ tYJ
 oNE
 vWT
 rAZ
-vWT
-vWT
+dRW
+sWU
 eWO
 eWO
 pFK
@@ -177163,12 +177162,12 @@ pZu
 vam
 sNB
 pZu
-tYJ
-dAZ
-dAZ
-dAZ
 wbG
-sWU
+dAZ
+dAZ
+dAZ
+dAZ
+vWT
 eWO
 eWO
 pFK
