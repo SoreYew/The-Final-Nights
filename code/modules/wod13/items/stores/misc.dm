@@ -63,7 +63,7 @@
 	)
 
 /obj/machinery/mineral/equipment_vendor/fastfood/library
-
+	var/owner_needed = FALSE
 	prize_list = list(
 		new /datum/data/mining_equipment("black pen",	/obj/item/pen,  5),
 		new /datum/data/mining_equipment("folder",	/obj/item/folder,  5),
