@@ -61,13 +61,9 @@
 	},
 /area/vtm/interior/cog/caern)
 "aaZ" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#574d46"
-	},
-/obj/structure/chair/wood,
-/mob/living/carbon/human/npc/shop,
-/turf/open/floor/carpet,
+/obj/structure/table/wood,
+/obj/machinery/mineral/equipment_vendor/fastfood/library,
+/turf/closed/wall/vampwall/rich/old/low,
 /area/vtm/interior/chantry)
 "aba" = (
 /obj/item/soap,
@@ -56495,14 +56491,6 @@
 /obj/structure/coclock,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
-"nXq" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#574d46"
-	},
-/obj/structure/table/wood,
-/obj/machinery/mineral/equipment_vendor/fastfood/library,
-/turf/open/floor/carpet,
-/area/vtm/interior/chantry)
 "nXz" = (
 /obj/machinery/button/door{
 	pixel_y = 33;
@@ -163151,7 +163139,7 @@ fTm
 mad
 vTS
 bwM
-eWQ
+lNi
 lNi
 oWn
 rwZ
@@ -163352,8 +163340,8 @@ jcZ
 fTm
 mNz
 vTS
-aaZ
-nXq
+brR
+eKF
 rKF
 rKF
 rKF
@@ -164166,7 +164154,7 @@ pdZ
 sgk
 cKZ
 xcc
-cKZ
+aaZ
 gxu
 cKZ
 sgk
