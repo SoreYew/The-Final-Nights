@@ -59879,6 +59879,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/clinic)
+"oNE" = (
+/obj/structure/vampdoor/reinf{
+	dir = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "oNQ" = (
 /obj/effect/decal/bordur{
 	dir = 6
@@ -75865,12 +75871,6 @@
 /obj/structure/chair/wood,
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/tzimisce_manor)
-"sPA" = (
-/obj/structure/vampdoor/reinf{
-	dir = 8
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/shop)
 "sPB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -88310,6 +88310,12 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
+"wbG" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "wbJ" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -88867,12 +88873,6 @@
 /obj/structure/reagent_dispensers/cleaningfluid,
 /turf/open/floor/plating/concrete,
 /area/vtm/hotel)
-"wji" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/shop)
 "wjw" = (
 /obj/structure/vamptree{
 	icon_state = "tree10"
@@ -176760,10 +176760,10 @@ qbT
 tlb
 qsQ
 tYJ
-sPA
-sWU
+oNE
+vWT
 rAZ
-sWU
+vWT
 vWT
 eWO
 eWO
@@ -177167,7 +177167,7 @@ tYJ
 dAZ
 dAZ
 dAZ
-wji
+wbG
 sWU
 eWO
 eWO
