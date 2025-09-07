@@ -137,6 +137,11 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endron_facility)
+"abZ" = (
+/obj/structure/table,
+/obj/item/paper/fluff,
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "acf" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/vampire/brujah/female,
@@ -32322,6 +32327,16 @@
 	},
 /turf/closed/wall/vampwall/brick/low,
 /area/vtm/interior/littleitaly)
+"ikc" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 8
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/shop)
 "ikd" = (
 /obj/structure/fluff/hedge,
 /obj/effect/decal/bordur,
@@ -35778,7 +35793,7 @@
 /area/vtm/interior/littleitaly)
 "jbU" = (
 /obj/structure/coclock,
-/turf/closed/wall/vampwall/market,
+/turf/open/floor/plating/parquetry,
 /area/vtm/interior/shop)
 "jca" = (
 /turf/open/floor/plating/asphalt,
@@ -176961,7 +176976,7 @@ baE
 baE
 baE
 tYJ
-dAZ
+jbU
 dAZ
 mqt
 dAZ
@@ -177163,8 +177178,8 @@ vam
 sNB
 pZu
 wbG
-dAZ
-dAZ
+ikc
+abZ
 dAZ
 dAZ
 vWT
@@ -177365,7 +177380,7 @@ fAp
 fAp
 jsI
 tYJ
-jbU
+sWU
 sWU
 sWU
 sWU
