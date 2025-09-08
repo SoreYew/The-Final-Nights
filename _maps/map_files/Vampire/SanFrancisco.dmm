@@ -9623,6 +9623,15 @@
 	},
 /turf/open/floor/plating/vampacid,
 /area/vtm/interior/wyrm_corrupted)
+"cyj" = (
+/obj/item/gun/ballistic/vampire/mac10,
+/obj/item/ammo_box/magazine/vampmac10,
+/obj/item/ammo_box/magazine/vampmac10,
+/obj/item/ammo_box/magazine/vampmac10,
+/obj/item/ammo_box/magazine/vampmac10,
+/obj/structure/closet/cabinet,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/anarch/basement)
 "cym" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24;
@@ -133938,7 +133947,7 @@ skm
 niE
 eGb
 gnR
-aGe
+cyj
 tFd
 tFd
 tFd
@@ -135153,7 +135162,7 @@ fOK
 bFI
 eNl
 wZc
-wZc
+kNi
 wQp
 qhP
 tFd
