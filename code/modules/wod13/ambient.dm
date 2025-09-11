@@ -220,6 +220,7 @@
 	name = "Interior"
 	zone_type = "elysium"
 	music = /datum/vampiremusic/sewer
+	upper = FALSE
 
 /area/vtm/financialdistrict
 	name = "Financial District"
