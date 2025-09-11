@@ -21,7 +21,7 @@
 	allowed_tribes = list("Ronin", "Glass Walkers")
 
 
-	duty = "Make money, do drugs, fight law. Your hideout is the laundromat in Chinatown."
+	duty = "Your gang answers to an enigmatic leader in Chinatown. In absence of their leadership, the Axes answer to nobody but themselves. Do drugs, commit crime, and protect your own."
 	experience_addition = 10
 	minimal_masquerade = 0
 
