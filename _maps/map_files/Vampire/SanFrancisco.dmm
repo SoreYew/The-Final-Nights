@@ -530,7 +530,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "age" = (
 /obj/structure/railing{
 	dir = 4
@@ -903,7 +903,7 @@
 	name = "bars"
 	},
 /turf/closed/wall/vampwall/low,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "akF" = (
 /obj/structure/railing/metal{
 	plane = 3
@@ -2663,7 +2663,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "aIr" = (
 /obj/structure/vampstatue,
 /obj/effect/decal/bordur/corner{
@@ -4153,7 +4153,7 @@
 	},
 /obj/effect/landmark/start/sabbatpack,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "bdF" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plating/industrial,
@@ -7610,7 +7610,7 @@
 	},
 /obj/structure/bury_pit,
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "bYY" = (
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalk/rich,
@@ -10481,7 +10481,7 @@
 "cJd" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "cJe" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -10553,7 +10553,7 @@
 	lockpick_difficulty = 8
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "cJV" = (
 /obj/effect/decal/bordur/corner,
 /obj/structure/railing/metal{
@@ -12896,7 +12896,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "dmq" = (
 /obj/item/stack/dollar/five,
 /turf/open/floor/plating/vampcanalplating,
@@ -13213,7 +13213,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "dqP" = (
 /obj/effect/decal/stock{
 	dir = 4;
@@ -14152,7 +14152,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "dEq" = (
 /obj/structure/railing/metal,
 /obj/effect/decal/pallet,
@@ -18196,7 +18196,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "eKo" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife,
@@ -21095,7 +21095,7 @@
 /obj/item/vamp/keys/sabbat,
 /obj/item/vamp/keys/sabbat,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "fsu" = (
 /obj/structure/bookcase/random/kindred,
 /turf/open/floor/plating/parquetry/old,
@@ -21534,7 +21534,7 @@
 /area/vtm/interior/shop)
 "fyn" = (
 /turf/open/floor/plating/shit,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "fyw" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6;
@@ -22146,7 +22146,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "fGF" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -24585,7 +24585,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/shit,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "gmf" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/painted,
@@ -24851,7 +24851,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "gpW" = (
 /obj/structure/rack,
 /obj/item/storage/box/lights/tubes,
@@ -25296,7 +25296,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "gxq" = (
 /obj/effect/decal/crosswalk{
 	dir = 8
@@ -26912,7 +26912,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "gRb" = (
 /obj/structure/chair/pew,
 /turf/open/floor/plating/toilet{
@@ -27627,7 +27627,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "gZI" = (
 /obj/item/bikehorn/rubberducky,
 /turf/open/floor/plating/shit,
@@ -27793,7 +27793,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "hcR" = (
 /obj/effect/decal/wallpaper/paper/low,
 /obj/effect/decal/wallpaper/papers/eight,
@@ -27935,7 +27935,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "heg" = (
 /obj/flag/california{
 	pixel_y = 28
@@ -28573,7 +28573,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/shit,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "hmv" = (
 /turf/open/floor/plating/dirt,
 /area/vtm/pacificheights)
@@ -31426,7 +31426,7 @@
 "hWz" = (
 /obj/item/vampirebook/noddist,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "hWA" = (
 /obj/machinery/photocopier,
 /obj/machinery/light{
@@ -31606,7 +31606,7 @@
 /area/vtm/interior/shop)
 "hYX" = (
 /turf/closed/wall/vampwall,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "hYZ" = (
 /obj/effect/decal/wallpaper/papers/seven{
 	pixel_y = -4
@@ -31838,7 +31838,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "icy" = (
 /obj/effect/decal/bordur,
 /obj/structure/chair/pew/left,
@@ -32011,7 +32011,7 @@
 /obj/structure/closet/crate/coffin,
 /obj/item/vampirebook/noddist,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "iee" = (
 /obj/effect/decal/bordur/corner{
 	dir = 1
@@ -33595,7 +33595,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "ivS" = (
 /obj/effect/decal/asphaltline/alt{
 	dir = 8;
@@ -35489,7 +35489,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "iTz" = (
 /obj/effect/turf_decal/siding/white/end{
 	dir = 4;
@@ -36990,7 +36990,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "joo" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -37747,7 +37747,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/shit/border,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "jxK" = (
 /obj/structure/vampdoor/old{
 	dir = 1;
@@ -38196,7 +38196,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "jDT" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood{
@@ -38660,7 +38660,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "jKB" = (
 /obj/effect/decal/asphaltline/alt{
 	dir = 8;
@@ -41365,7 +41365,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kpM" = (
 /obj/structure/sink{
 	pixel_y = 22
@@ -41934,7 +41934,7 @@
 "kwk" = (
 /obj/effect/landmark/start/sabbatist,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kwn" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#574d46";
@@ -42238,7 +42238,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kAK" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -42800,7 +42800,7 @@
 	},
 /obj/item/sabbat_war_party,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kIi" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = -6
@@ -42842,7 +42842,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kIy" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
@@ -42871,7 +42871,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kIH" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/parquetry/old,
@@ -43130,7 +43130,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kMB" = (
 /obj/structure/bed/pod,
 /obj/structure/coclock,
@@ -43884,7 +43884,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "kWJ" = (
 /obj/structure/railing/metal{
 	dir = 8
@@ -44230,7 +44230,7 @@
 /area/vtm/clinic/haven)
 "lbE" = (
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "lbK" = (
 /obj/structure/table,
 /obj/item/food/grown/parsnip{
@@ -47732,7 +47732,7 @@
 	},
 /obj/effect/landmark/start/sabbatist,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "lVk" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 8
@@ -47961,7 +47961,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "lXv" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -48105,7 +48105,7 @@
 "mac" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mad" = (
 /obj/effect/decal/litter,
 /turf/open/floor/plating/sidewalk/rich,
@@ -49331,7 +49331,7 @@
 "mnG" = (
 /obj/structure/vampdoor/wood/sabbat,
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mnI" = (
 /obj/effect/decal/litter,
 /turf/open/floor/plating/concrete,
@@ -49695,7 +49695,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mrC" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -50077,7 +50077,7 @@
 	color = "#635d52";
 	dir = 4
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mwZ" = (
 /obj/structure/big_vamprocks{
 	icon_state = "rock3";
@@ -50568,7 +50568,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mDi" = (
 /obj/structure/closet,
 /obj/item/clothing/under/pentex/pentex_turtleneck,
@@ -52028,7 +52028,7 @@
 /area/vtm/anarch/garage)
 "mTX" = (
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mUl" = (
 /obj/machinery/light/prince{
 	dir = 8;
@@ -52399,7 +52399,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "mYC" = (
 /obj/machinery/light/red{
 	pixel_y = 32
@@ -52586,7 +52586,7 @@
 /area/vtm/anarch)
 "nab" = (
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "naj" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -53470,7 +53470,7 @@
 /turf/open/floor/plasteel/stairs{
 	color = "#635d52"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "nmH" = (
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/asphalt,
@@ -54241,7 +54241,7 @@
 	name = "bars"
 	},
 /turf/closed/wall/vampwall/low,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "nwA" = (
 /obj/machinery/button/door{
 	id = 46;
@@ -55491,7 +55491,7 @@
 "nMl" = (
 /obj/structure/bury_pit,
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "nMo" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -56084,7 +56084,7 @@
 "nTk" = (
 /obj/sabbatrune,
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "nTn" = (
 /obj/structure/chair/red{
 	dir = 8
@@ -58018,7 +58018,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "opj" = (
 /obj/structure/fluff/hedge,
 /obj/machinery/light{
@@ -58942,7 +58942,7 @@
 	lockpick_difficulty = 15
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "oBp" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/metal/corner{
@@ -60502,7 +60502,7 @@
 	},
 /obj/effect/landmark/start/sabbatpack,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "oWS" = (
 /obj/order{
 	pixel_y = 32
@@ -60658,7 +60658,7 @@
 	},
 /obj/structure/bury_pit,
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "oYK" = (
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk,
@@ -63085,7 +63085,7 @@
 /area/vtm/pacificheights/industrial)
 "pBQ" = (
 /turf/open/floor/plating/dirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "pBS" = (
 /obj/vampire_car/rand,
 /turf/open/floor/plating/rough,
@@ -63271,7 +63271,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "pEV" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -63471,7 +63471,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "pGS" = (
 /obj/structure/sink{
 	pixel_y = 16;
@@ -64236,7 +64236,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "pQr" = (
 /obj/structure/chair/sofa/old/right{
 	color = "#525252";
@@ -66191,7 +66191,7 @@
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/rand,
 /turf/open/floor/plating/dirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "qql" = (
 /obj/structure/closet/cabinet,
 /obj/item/ammo_box/vampire/c45acp,
@@ -66666,7 +66666,7 @@
 /area/vtm/interior/theatre)
 "qwJ" = (
 /turf/open/floor/plating/shit/border,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "qwL" = (
 /obj/structure/chair/comfy/brown{
 	color = "#50C878";
@@ -68087,7 +68087,7 @@
 	name = "bars"
 	},
 /turf/closed/wall/vampwall/city/low,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "qOq" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -68471,7 +68471,7 @@
 	pixel_y = -7
 	},
 /turf/open/floor/plating/dirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "qSX" = (
 /obj/structure/chair/sofa/old/left{
 	color = "#525252";
@@ -69441,7 +69441,7 @@
 "reI" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "reJ" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -69725,7 +69725,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "riW" = (
 /turf/open/floor/carpet/green,
 /area/vtm/sewer/nosferatu_warren)
@@ -69778,7 +69778,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rjF" = (
 /obj/item/restraints/legcuffs/beartrap{
 	icon_state = "beartrap1";
@@ -69937,7 +69937,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rlJ" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#6e635a";
@@ -70366,7 +70366,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rrs" = (
 /obj/structure/table/wood{
 	density = 0
@@ -71255,7 +71255,7 @@
 	},
 /obj/effect/landmark/start/sabbatpack,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rEb" = (
 /obj/effect/turf_decal/siding/white{
 	color = "#828282"
@@ -71586,7 +71586,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rJb" = (
 /obj/effect/turf_decal/siding/wideplating{
 	color = "#802d29";
@@ -72678,7 +72678,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/shit,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "rXf" = (
 /obj/structure/lattice/grate,
 /obj/structure/railing/metal{
@@ -78234,7 +78234,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "tst" = (
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/sidewalk/old,
@@ -80545,7 +80545,7 @@
 	},
 /obj/effect/landmark/start/sabbatpack,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "tWK" = (
 /obj/effect/decal/bordur/corner{
 	dir = 4
@@ -82908,7 +82908,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "uCG" = (
 /obj/structure/table/wood/fancy/green,
 /obj/item/reagent_containers/food/drinks/drinkingglass/wine_glass{
@@ -83221,7 +83221,7 @@
 /obj/item/vamp/keys/sabbat,
 /obj/item/masquerade_contract,
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "uGa" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#665136";
@@ -86660,7 +86660,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "vFf" = (
 /turf/open/floor/plating/shit/border,
 /area/vtm/sewer)
@@ -87472,7 +87472,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "vOU" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/vamprocks{
@@ -88496,7 +88496,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wda" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "splatter4-old"
@@ -89141,7 +89141,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wld" = (
 /obj/structure/chair/green{
 	dir = 8
@@ -89276,7 +89276,7 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wmC" = (
 /obj/structure/railing/metal{
 	dir = 1
@@ -90205,7 +90205,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wyl" = (
 /obj/effect/decal/pallet,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -90917,7 +90917,7 @@
 /area/vtm)
 "wGV" = (
 /turf/open/floor/plating/parquetry/old,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wGZ" = (
 /obj/effect/decal/coastline{
 	dir = 8
@@ -92025,7 +92025,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "wVF" = (
 /obj/structure/stairs/south,
 /turf/open/floor/carpet/black,
@@ -93329,7 +93329,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/vampcanalplating,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "xkW" = (
 /mob/living/simple_animal/pet/cat/vampire,
 /turf/open/floor/plating/sidewalkalt,
@@ -93537,7 +93537,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "xot" = (
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk,
@@ -93777,7 +93777,7 @@
 	icon_state = "canal2";
 	base_icon_state = "canal2"
 	},
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "xsj" = (
 /obj/structure/chair/sofa/old{
 	color = "#525252"
@@ -96694,7 +96694,7 @@
 "ydH" = (
 /obj/sabbatrune,
 /turf/open/floor/plating/vampdirt,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "ydJ" = (
 /obj/effect/decal/bordur{
 	dir = 4
@@ -96762,7 +96762,7 @@
 	},
 /obj/effect/landmark/start/sabbatpack,
 /turf/open/floor/plating/vampcanal,
-/area/vtm/sabbat_lair)
+/area/vtm/interior/sabbat_lair)
 "yeC" = (
 /obj/structure/railing/metal/corner,
 /turf/open/floor/plating/parquetry/old,
