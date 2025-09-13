@@ -3291,6 +3291,10 @@
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/interior/shop)
+"aPu" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating/roofwalk,
+/area/vtm)
 "aPy" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
@@ -7870,7 +7874,6 @@
 /obj/structure/vampdoor{
 	dir = 4;
 	lock_id = "wolftech";
-	locked = 1;
 	lockpick_difficulty = 10
 	},
 /turf/open/floor/plating/circled{
@@ -7996,7 +7999,7 @@
 	dir = 1;
 	pixel_y = 9
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "caf" = (
 /obj/structure/lamppost/sidewalk,
@@ -11308,7 +11311,7 @@
 	dir = 1
 	},
 /obj/structure/railing,
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "cPl" = (
 /obj/structure/table,
@@ -49989,7 +49992,7 @@
 	dir = 1;
 	pixel_y = 9
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "mfu" = (
 /obj/effect/decal/bordur{
@@ -53829,7 +53832,7 @@
 	plane = 4;
 	pixel_y = 6
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "mWC" = (
 /obj/effect/decal/bordur{
@@ -64196,7 +64199,7 @@
 	dir = 1;
 	pixel_y = 9
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "ptJ" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -68501,15 +68504,7 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
 "qvF" = (
-/obj/structure/vampdoor{
-	dir = 4;
-	lock_id = "wolftech";
-	locked = 1;
-	lockpick_difficulty = 10
-	},
-/turf/open/floor/plating/circled{
-	color = "#EADDCA"
-	},
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "qvN" = (
 /obj/effect/turf_decal/siding/wideplating/corner{
@@ -68815,7 +68810,7 @@
 	dir = 8;
 	pixel_y = 3
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "qAB" = (
 /obj/effect/turf_decal/siding/white{
@@ -69564,7 +69559,7 @@
 	plane = 4;
 	pixel_y = 6
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "qJj" = (
 /obj/effect/decal/bordur/corner{
@@ -87792,7 +87787,7 @@
 	dir = 8;
 	pixel_y = 3
 	},
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "vkw" = (
 /obj/effect/turf_decal/siding/white{
@@ -90473,7 +90468,7 @@
 /area/vtm/interior/giovanni/outside)
 "vUg" = (
 /obj/structure/railing,
-/turf/open/floor/plating/circled,
+/turf/open/floor/light,
 /area/vtm/interior/shop)
 "vUv" = (
 /obj/effect/decal/wallpaper/grey{
@@ -175212,8 +175207,8 @@ gbc
 rAT
 uYN
 mfs
-fEh
-fEh
+qvF
+qvF
 vUg
 rcJ
 rcJ
@@ -175414,8 +175409,8 @@ gbc
 bSp
 wQU
 mfs
-fEh
-fEh
+qvF
+qvF
 cPe
 rcJ
 mGK
@@ -175616,8 +175611,8 @@ gbc
 rAT
 uYN
 mfs
-fEh
-fEh
+qvF
+qvF
 vUg
 rcJ
 rcJ
@@ -215017,7 +215012,7 @@ xNj
 lUr
 rcJ
 wOw
-qvF
+lNZ
 rcJ
 rcJ
 mjT
@@ -255608,12 +255603,12 @@ nrq
 yhl
 mOz
 xEp
-xEp
+aPu
 cVF
 rmT
 rmT
 rDo
-xEp
+aPu
 xEp
 ltJ
 dTE
@@ -256820,12 +256815,12 @@ slr
 rbS
 mOz
 xEp
-xEp
+aPu
 eNz
 hMV
 hMV
 omT
-xEp
+aPu
 xEp
 htO
 dTE
