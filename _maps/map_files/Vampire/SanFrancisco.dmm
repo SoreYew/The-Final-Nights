@@ -60081,13 +60081,6 @@
 /obj/effect/decal/coastline,
 /turf/open/floor/plating/dirt,
 /area/vtm/forest)
-"oub" = (
-/obj/effect/decal/pallet,
-/obj/structure/closet/crate/maint,
-/turf/open/floor/plating/circled{
-	color = "#EADDCA"
-	},
-/area/vtm/interior/shop)
 "ouh" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
@@ -79683,12 +79676,6 @@
 /obj/item/clothing/shoes/vampire,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/littleitaly/apartments)
-"tiM" = (
-/obj/structure/closet/crate/maint,
-/turf/open/floor/plating/circled{
-	color = "#EADDCA"
-	},
-/area/vtm/interior/shop)
 "tiP" = (
 /obj/structure/table/wood,
 /obj/item/chair/wood{
@@ -214809,9 +214796,9 @@ cmb
 lUr
 lUr
 wOw
-oub
+ksF
 lUr
-tiM
+lUr
 rcJ
 mjT
 mjT
@@ -254601,7 +254588,7 @@ xEp
 xEp
 xEp
 wOw
-oub
+ksF
 ukE
 lUr
 aEO
