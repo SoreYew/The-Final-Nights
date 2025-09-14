@@ -103,6 +103,7 @@ GLOBAL_LIST_INIT(church_positions, list(
 
 GLOBAL_LIST_INIT(gang_positions, list(
 	"Axe Gang",
+	"Screentender"
 ))
 
 GLOBAL_LIST_INIT(painted_positions, list(
