@@ -5935,6 +5935,12 @@
 /obj/structure/roofstuff/alt2,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"byw" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "byB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
@@ -17789,7 +17795,6 @@
 /area/vtm/interior/giovanni)
 "evP" = (
 /obj/structure/chair/office,
-/obj/effect/landmark/start/dealer,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "evZ" = (
@@ -27673,6 +27678,7 @@
 /area/vtm/interior/glasswalker)
 "gNf" = (
 /obj/structure/chair/office,
+/obj/effect/landmark/start/axe_leader,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
 "gNk" = (
@@ -33900,6 +33906,13 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/chinatown)
+"imB" = (
+/obj/structure/chair/green{
+	dir = 4
+	},
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/concrete,
+/area/vtm/supply)
 "imQ" = (
 /obj/item/vamp/keys/camarilla{
 	accesslocks = list("malkav","malkav1","malkav2", "fireshelter");
@@ -35010,7 +35023,7 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/obj/effect/landmark/start/supplytechnician,
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "iAe" = (
@@ -61056,7 +61069,6 @@
 /obj/structure/chair/sofa/old/right{
 	color = "#525252"
 	},
-/obj/effect/landmark/start/supplytechnician,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "oEH" = (
@@ -77301,7 +77313,6 @@
 	color = "#525252";
 	dir = 8
 	},
-/obj/effect/landmark/start/supplytechnician,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "sEk" = (
@@ -84812,6 +84823,12 @@
 /mob/living/carbon/human/npc/bouncer/endron/endron_2,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/endron_facility/restricted)
+"uwK" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "uwL" = (
 /obj/structure/roofstuff/alt1{
 	pixel_y = 9
@@ -149120,7 +149137,7 @@ kTe
 rWb
 arS
 tNl
-tNl
+imB
 evn
 lUq
 tNl
@@ -165146,7 +165163,7 @@ bXK
 bXK
 bXK
 btp
-gIz
+uwK
 gIz
 kgF
 wqF
@@ -165551,7 +165568,7 @@ bXK
 bXK
 btp
 nPF
-nPF
+byw
 kgF
 dGJ
 hbb
@@ -207350,7 +207367,7 @@ tiU
 qaL
 aXQ
 wli
-omI
+oon
 oXV
 idF
 fyE
@@ -207756,7 +207773,7 @@ xQB
 wli
 omI
 uLn
-idF
+dNd
 fyE
 mjT
 mjT
