@@ -159,7 +159,6 @@
 		"Giovanni" = GLOB.giovanni_positions,
 		"Clan Tzimisce" = GLOB.tzimisce_positions,
 		"Law Enforcement" = GLOB.police_positions + GLOB.national_security_positions,
-		"Warehouse" = GLOB.warehouse_positions,
 		"Axe Gang" = GLOB.gang_positions
 	)
 	for(var/datum/data/record/t in GLOB.data_core.general)
