@@ -70,7 +70,7 @@
 	known_contacts = list("Prince","Seneschal", "Sheriff", "Baron")
 	allowed_species = list("Kuei-Jin")
 
-	duty = "You lead a Scarlet Screen known as the Axe Gang. Wheather they are in the Know or not, Kindred, Werewolf, or a Hungry Dead like yourself, you offer shelter and fulfillment to these outcasts. Live up to your promises, and cultivate the Axe Gang."
+	v_duty = "You lead a Scarlet Screen known as the Axe Gang. Wheather they are in the Know or not, Kindred, Werewolf, or a Hungry Dead like yourself, you offer shelter and fulfillment to these outcasts. Live up to your promises, and cultivate the Axe Gang."
 	experience_addition = 20
 	minimal_masquerade = 0
 
