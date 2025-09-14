@@ -42,7 +42,7 @@
 	id = /obj/item/card/id/supplytech
 	l_pocket = /obj/item/vamp/phone/axe_gangster
 	r_pocket = /obj/item/vamp/keys/axes
-	backpack_contents = list(/obj/item/vamp/keys/supply, /obj/item/flashlight=1, /obj/item/passport=1, /obj/item/vamp/creditcard=1, /obj/item/clothing/mask/vampire/balaclava =1, /obj/item/gun/ballistic/automatic/vampire/beretta=2,/obj/item/ammo_box/magazine/semi9mm=2, /obj/item/melee/vampirearms/knife)
+	backpack_contents = list(/obj/item/vamp/keys/supply, /obj/item/flashlight=1, /obj/item/passport=1, /obj/item/vamp/creditcard=1, /obj/item/clothing/mask/vampire/balaclava =1, /obj/item/gun/ballistic/automatic/vampire/beretta=2,/obj/item/ammo_box/magazine/semi9mm=2, /obj/item/melee/vampirearms/knife, /obj/item/hatchet)
 
 /obj/effect/landmark/start/axe_gang
 	name = "Axe Gang"
@@ -89,7 +89,7 @@
 	id = /obj/item/card/id/dealer
 	l_pocket = /obj/item/vamp/phone/axe_leader
 	r_pocket = /obj/item/vamp/keys/axes
-	backpack_contents = list(/obj/item/vamp/keys/supply, /obj/item/flashlight=1, /obj/item/cockclock=1, /obj/item/passport=1, /obj/item/vamp/creditcard/rich=1,)
+	backpack_contents = list(/obj/item/vamp/keys/supply, /obj/item/flashlight=1, /obj/item/cockclock=1, /obj/item/passport=1, /obj/item/vamp/creditcard/rich=1, /obj/item/hatchet)
 
 /obj/effect/landmark/start/axe_leader
 	name = "Screentender"

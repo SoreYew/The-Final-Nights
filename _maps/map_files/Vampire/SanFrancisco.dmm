@@ -76201,6 +76201,8 @@
 "spx" = (
 /obj/structure/table/wood,
 /obj/item/police_radio,
+/obj/item/vamp/keys/axes,
+/obj/item/vamp/keys/axes,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "spy" = (
@@ -89850,6 +89852,13 @@
 /obj/effect/decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
 /area/vtm/unionsquare)
+"vMr" = (
+/obj/structure/table/wood,
+/obj/item/vamp/keys/supply,
+/obj/item/vamp/keys/supply,
+/obj/item/vamp/keys/supply,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/supply)
 "vMy" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plating/parquetry,
@@ -148530,7 +148539,7 @@ tao
 aXh
 hWA
 gNf
-oir
+vMr
 sLi
 cXM
 oYt
