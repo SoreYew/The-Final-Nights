@@ -18,12 +18,12 @@
 	exp_type_department = EXP_TYPE_GANG
 
 	allowed_species = list("Vampire", "Ghoul", "Human", "Kuei-Jin", "Werewolf")
-	allowed_bloodlines = list(CLAN_NONE)
-	allowed_tribes = list("Ronin", "Glass Walkers")
+	allowed_bloodlines = list(CLAN_NONE, CLAN_GANGREL, CLAN_SETITES, CLAN_GARGOYLE, CLAN_DAUGHTERS_OF_CACOPHONY, CLAN_CAPPADOCIAN, CLAN_NAGARAJA, )
+	allowed_tribes = list("Ronin")
 
 
-	duty = "Your gang answers to an enigmatic leader in Chinatown. In absence of their leadership, the Axes answer to nobody but themselves. Sell weapons using your Warehouse , do drugs, commit crime, and protect your own."
-	v_duty = "You are a member of a Scarlet Screen known as the Axe Gang. Your leader, the Screentender, provides a place for outcasts like yourself to find fulfillment, and comradery. Sell weapons using your Warehouse , do drugs, commit crime, and protect your own."
+	duty = "Your gang answers to enigmatic leaders in Chinatown. In absence of their leadership, the Axes answer to nobody but themselves. Sell weapons using your Warehouse , do drugs, commit crime, and protect your own."
+	v_duty = "You are a member of a Scarlet Screen known as the Axe Gang. Your leaders, the Screentenders, provide a place for outcasts like yourself to find fulfillment, and comradery. Sell weapons using your Warehouse , do drugs, commit crime, and protect your own."
 	experience_addition = 10
 	minimal_masquerade = 0
 
@@ -51,8 +51,8 @@
 /datum/job/vamp/axe_leader
 	title = "Screentender"
 	faction = "Vampire"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "nobody. You are beholden only to yourself."
 	selection_color = "#bb9d3d"
 
@@ -68,9 +68,11 @@
 	exp_type_department = EXP_TYPE_GANG
 
 	known_contacts = list("Prince","Seneschal", "Sheriff", "Baron")
-	allowed_species = list("Kuei-Jin")
+	allowed_species = list("Kuei-Jin", "Human")
+	species_slots = list("Human" = 1, "Kuei-Jin" = 1)
 
 	v_duty = "You lead a Scarlet Screen known as the Axe Gang. Wheather they are in the Know or not, Kindred, Werewolf, or a Hungry Dead like yourself, you offer shelter and fulfillment to these outcasts. Live up to your promises, and cultivate the Axe Gang."
+	duty = "You lead a particular group, known as the Axe Gang, with the assistance of an enigmatic partner. You may understand the true identity of your co-conspirators, or not. Either way, they respect the position your co-leader and you hold."
 	experience_addition = 20
 	minimal_masquerade = 0
 
