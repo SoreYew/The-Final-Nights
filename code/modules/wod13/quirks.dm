@@ -762,3 +762,5 @@ Dancer
 
 #undef SHORT
 #undef TALL
+
+/datum/quirk/kinfolk
