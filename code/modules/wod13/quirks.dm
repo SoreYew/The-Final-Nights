@@ -762,3 +762,9 @@ Dancer
 
 #undef SHORT
 #undef TALL
+
+/datum/quirk/unknowingkinfolk
+
+/datum/quirk/kinfolk
+
+/datum/quirk/wyrmtainted
