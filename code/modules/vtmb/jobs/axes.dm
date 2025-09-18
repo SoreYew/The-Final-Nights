@@ -18,7 +18,7 @@
 	exp_type_department = EXP_TYPE_GANG
 
 	allowed_species = list("Vampire", "Ghoul", "Human", "Kuei-Jin", "Werewolf")
-	allowed_bloodlines = list(CLAN_NONE, CLAN_GANGREL, CLAN_SETITES, CLAN_GARGOYLE, CLAN_DAUGHTERS_OF_CACOPHONY, CLAN_CAPPADOCIAN, CLAN_NAGARAJA,)
+	allowed_bloodlines = list(CLAN_NONE, CLAN_GANGREL, CLAN_GARGOYLE, CLAN_DAUGHTERS_OF_CACOPHONY, CLAN_CAPPADOCIAN, CLAN_NAGARAJA,)
 	allowed_tribes = list("Ronin")
 
 
