@@ -6,7 +6,7 @@
     w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/charcoal_stick/afterattack(atom/target, mob/living/carbon/user, proximity)
-	if(!proximity || !isgarou(user) || iskinfolk(user))
+	if(!proximity || (!isgarou(user) && !iskinfolk(user)))
 		return
 
 	if(!GLOB.glyph_list.len)
