@@ -538,6 +538,8 @@
 
 				if ((vampire.clan?.name == CLAN_BAALI) || ( (client?.prefs?.is_enlightened && (vampire.morality_path.score > 7)) || (!client?.prefs?.is_enlightened && (vampire.morality_path.score < 4)) ))
 					wyrm_taint++
+			if (ishuman(src))
+
 
 			if (isgarou(src) || iswerewolf(src)) //werewolves have the taint of whatever Triat member they venerate most
 				var/mob/living/carbon/wolf = src
