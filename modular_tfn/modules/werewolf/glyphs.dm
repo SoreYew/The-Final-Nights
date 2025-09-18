@@ -51,7 +51,7 @@
 
 /obj/effect/decal/garou_glyph/examine(mob/user)
     . = ..()
-    if(isgarou(user) || iswerewolf(user)) // If they're a werewolf, show them the true meaning of the glyph.
+    if(isgarou(user) || iswerewolf(user) || iskinfolk(user)) // If they're a werewolf or kinfolk, show them the true meaning of the glyph.
         . += "<b>Name:</b> [garou_name]\n" + \
         "<b>Description:</b> [garou_desc]\n"
 
