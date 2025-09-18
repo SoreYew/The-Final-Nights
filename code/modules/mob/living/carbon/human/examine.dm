@@ -538,8 +538,6 @@
 
 				if ((vampire.clan?.name == CLAN_BAALI) || ( (client?.prefs?.is_enlightened && (vampire.morality_path.score > 7)) || (!client?.prefs?.is_enlightened && (vampire.morality_path.score < 4)) ))
 					wyrm_taint++
-			if (ishuman(src))
-
 
 			if (isgarou(src) || iswerewolf(src)) //werewolves have the taint of whatever Triat member they venerate most
 				var/mob/living/carbon/wolf = src
@@ -585,6 +583,8 @@
 
 				if (!wyrm_taint && !weaver_taint && !wyld_taint)
 					msg += "<span class='purple'><i>You aren't sensing any of the triat's influence on [p_them()]...</i></span>\n"
+				if(HAS_TRAIT(src, TRAIT_KINFOLK))
+					msg += "<span class='purple'><i>[p_they(TRUE)] smell[p_s()] of being Kin, in some way."
 		else
 			msg += "<span class='purple'><i>[p_they(TRUE)] [p_are()] too far away to get a good sniff...</i></span>\n"
 
