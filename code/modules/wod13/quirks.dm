@@ -765,6 +765,6 @@ Dancer
 
 /datum/quirk/kinfolk
 	name = "Kinfolk"
-	desc = "You are both related to, and possiblly accepted by a pack of werewolves. You may know their customs, and are privy to secret signs which can identify you as a friend. Make no mistake, knowledge of this trait is a liability in the wrong hands, and you are open to consequences from enemies of the Fera."
+	desc = "You are both related to, and possiblly accepted by a pack of werewolves, or other fera. You may know their customs, and are privy to secret signs which can identify you as a friend. Make no mistake, knowledge of this trait is a liability in the wrong hands, and you are open to consequences from enemies of the Fera."
 	value = 3
 	mob_trait = TRAIT_KINFOLK
