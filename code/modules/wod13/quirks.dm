@@ -275,7 +275,7 @@ Dancer
 	value = -1
 	gain_text = "<span class='warning'>You feel wrongness crawling beneath your skin.</span>"
 	lose_text = "<span class='notice'>You feel relief and warmth.</span>"
-	allowed_species = list("Werewolf")
+	allowed_species = list("Werewolf", "Human")
 	allowed_tribes = list("Galestalkers","Ronin", "Glass Walkers", "Ghost Council", "Hart Wardens", "Children of Gaia", "Bone Gnawers", "Get of Fenris", "Black Furies", "Silver Fangs", "Silent Striders", "Shadow Lords", "Red Talons", "Stargazers", "Corax")
 
 /datum/quirk/fair_glabro
