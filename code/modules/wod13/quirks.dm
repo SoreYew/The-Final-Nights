@@ -767,4 +767,5 @@ Dancer
 	name = "Kinfolk"
 	desc = "You are both related to, and possiblly accepted by a pack of werewolves, or other fera. You may know their customs, and are privy to secret signs which can identify you as a friend. Make no mistake, knowledge of this trait is a liability in the wrong hands, and you are open to consequences from enemies of the Fera."
 	value = 3
+	allowed_species = list("Human")
 	mob_trait = TRAIT_KINFOLK
