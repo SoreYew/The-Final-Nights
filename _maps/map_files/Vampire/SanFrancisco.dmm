@@ -18296,7 +18296,6 @@
 /area/vtm/interior/giovanni)
 "evP" = (
 /obj/structure/chair/office,
-/obj/effect/landmark/start/dealer,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "evZ" = (
@@ -28306,6 +28305,7 @@
 /area/vtm/interior/glasswalker)
 "gNf" = (
 /obj/structure/chair/office,
+/obj/effect/landmark/start/axe_leader,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/supply)
 "gNk" = (
@@ -34249,6 +34249,10 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet,
 /area/vtm/interior)
+"ihT" = (
+/obj/effect/landmark/start/axe_gang,
+/turf/open/floor/plating/concrete,
+/area/vtm/supply)
 "iib" = (
 /obj/structure/stalagmite,
 /turf/open/floor/plating/dirt,
@@ -35866,7 +35870,6 @@
 /obj/machinery/light{
 	pixel_y = 32
 	},
-/obj/effect/landmark/start/supplytechnician,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "iAe" = (
@@ -49740,6 +49743,13 @@
 	},
 /turf/open/floor/plating/woodfancy,
 /area/vtm/interior/endron_facility/restricted)
+"lNG" = (
+/obj/structure/table/wood,
+/obj/item/vamp/keys/supply,
+/obj/item/vamp/keys/supply,
+/obj/item/vamp/keys/supply,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/supply)
 "lNI" = (
 /obj/structure/railing/metal{
 	dir = 4
@@ -62304,7 +62314,7 @@
 /obj/structure/chair/sofa/old/right{
 	color = "#525252"
 	},
-/obj/effect/landmark/start/supplytechnician,
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "oEH" = (
@@ -76243,6 +76253,12 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm)
+"saV" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "saY" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9;
@@ -77476,6 +77492,9 @@
 "spx" = (
 /obj/structure/table/wood,
 /obj/item/police_radio,
+/obj/item/vamp/keys/axes,
+/obj/item/vamp/keys/axes,
+/obj/item/vamp/keys/axes,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
 "spz" = (
@@ -78611,7 +78630,7 @@
 	color = "#525252";
 	dir = 8
 	},
-/obj/effect/landmark/start/supplytechnician,
+/obj/effect/landmark/start/axe_gang,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
 "sEk" = (
@@ -85488,6 +85507,12 @@
 "uic" = (
 /turf/open/floor/carpet/blue,
 /area/vtm/interior)
+"uim" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/vtm/interior/laundromat)
 "uip" = (
 /turf/open/openspace,
 /area/vtm/church/interior)
@@ -150597,7 +150622,7 @@ tao
 aXh
 hWA
 gNf
-oir
+lNG
 sLi
 cXM
 oYt
@@ -153439,7 +153464,7 @@ tNl
 sSm
 tNl
 tNl
-tNl
+ihT
 tNl
 tNl
 tNl
@@ -153833,7 +153858,7 @@ tNl
 tNl
 rWb
 tNl
-tNl
+ihT
 evn
 wuv
 oYt
@@ -167230,7 +167255,7 @@ bXK
 bXK
 bXK
 btp
-gIz
+saV
 gIz
 kgF
 wqF
@@ -167635,7 +167660,7 @@ bXK
 bXK
 btp
 nPF
-nPF
+uim
 kgF
 dGJ
 hbb
@@ -209434,7 +209459,7 @@ tiU
 qaL
 aXQ
 wli
-omI
+oon
 oXV
 idF
 fyE
@@ -209840,7 +209865,7 @@ xQB
 wli
 omI
 uLn
-idF
+dNd
 fyE
 mjT
 mjT
