@@ -39,8 +39,8 @@
 		to_chat(user, span_warning("The [src] can't find enough blood in [target]'s body!"))
 		return
 	if(HAS_TRAIT(target, TRAIT_POTENT_BLOOD))
-		var/obj/item/reagent_containers/blood/elite/elite_bloodpack = new /obj/item/reagent_containers/blood/elite(get_turf(src))
-		generate_blood_pack(target, elite_bloodpack)
+		var/obj/item/reagent_containers/blood/bloodpack = new /obj/item/reagent_containers/blood(get_turf(src))
+		generate_blood_pack(target, bloodpack)
 	else
 		var/obj/item/reagent_containers/blood/empty/bloodpack = new /obj/item/reagent_containers/blood/empty(get_turf(src))
 		generate_blood_pack(target, bloodpack)

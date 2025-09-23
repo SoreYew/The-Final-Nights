@@ -124,7 +124,7 @@
 /datum/crafting_recipe/tziregenerativecore
 	name = "Pulsating Heart"
 	time = 50
-	reqs = list(/obj/item/organ/heart = 1, /obj/item/reagent_containers/blood/elite = 1)
+	reqs = list(/obj/item/organ/heart = 1, /obj/item/reagent_containers/blood = 1)
 	result = /obj/item/organ/regenerative_core/legion/tzi
 	always_available = FALSE
 	category = CAT_TZIMISCE
