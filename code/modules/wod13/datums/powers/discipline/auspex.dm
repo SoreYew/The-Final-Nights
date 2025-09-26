@@ -231,7 +231,7 @@
 	level = 5
 	check_flags = DISC_CHECK_CONSCIOUS
 	vitae_cost = 1
-	duration_length = 1 TURNS
+	duration_length = 2 TURNS
 	toggled = TRUE
 	var/mob/dead/observer/avatar/auspex_avatar
 
