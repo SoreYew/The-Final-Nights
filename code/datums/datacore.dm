@@ -148,8 +148,7 @@
 		"Giovanni",
 		"Clan Tzimisce",
 		"Law Enforcement",
-		"Warehouse",
-		"Axe Gang"
+		"Axe Gang",
 	)
 	var/list/departments = list(
 		"Camarilla" = GLOB.command_positions,
