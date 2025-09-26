@@ -18,7 +18,8 @@
 
 	level = 1
 	check_flags = DISC_CHECK_CONSCIOUS
-	vitae_cost = 0
+	vitae_cost = 1
+	duration_length = 4 TURNS
 
 	toggled = TRUE
 
@@ -45,9 +46,10 @@
 
 	level = 2
 	check_flags = DISC_CHECK_CONSCIOUS
-	vitae_cost = 0
+	vitae_cost = 1
 
 	toggled = TRUE
+	duration_length = 2 TURNS
 
 /datum/discipline_power/auspex/aura_perception/activate()
 	. = ..()
@@ -74,9 +76,10 @@
 
 	level = 3
 	check_flags = DISC_CHECK_CONSCIOUS
-	vitae_cost = 0
+	vitae_cost = 1
 
 	toggled = TRUE
+	duration_length = 2 TURNS
 
 /datum/discipline_power/auspex/the_spirits_touch/activate()
 	. = ..()
@@ -228,8 +231,17 @@
 	level = 5
 	check_flags = DISC_CHECK_CONSCIOUS
 	vitae_cost = 1
+	duration_length = 1 TURNS
+	toggled = TRUE
+	var/mob/dead/observer/avatar/auspex_avatar
 
 /datum/discipline_power/auspex/psychic_projection/activate()
 	. = ..()
-	owner.enter_avatar()
+	auspex_avatar = owner.enter_avatar()
 	owner.soul_state = SOUL_PROJECTING
+
+/datum/discipline_power/auspex/psychic_projection/deactivate()
+	. = ..()
+	if(owner.soul_state == SOUL_PROJECTING)
+		auspex_avatar.reenter_corpse(TRUE)
+		owner.torpor()

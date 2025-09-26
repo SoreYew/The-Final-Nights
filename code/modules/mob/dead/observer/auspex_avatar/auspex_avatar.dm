@@ -90,9 +90,15 @@ GLOBAL_LIST_INIT(avatar_banned_verbs, list(
 	mind.current.client.init_verbs()
 	original_body.soul_state = SOUL_PRESENT
 
+
 	if(forced)
 		original_body.adjustBruteLoss(rand(25,50))
-		to_chat(original_body, span_warning("You were attacked by a malevolent spirit and forced back into your body!"))
+		to_chat(original_body, span_warning("You were forced back into your body!"))
+
+	for(var/datum/action/discipline/D)
+		if(D.discipline.name == "Auspex")
+			if(D.discipline.current_power.active)
+				D.discipline.current_power.try_deactivate()
 
 	return TRUE
 
