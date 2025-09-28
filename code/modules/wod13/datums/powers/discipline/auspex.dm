@@ -73,16 +73,12 @@
 
 	level = 3
 	check_flags = DISC_CHECK_CONSCIOUS
-	vitae_cost = 1
+	vitae_cost = 0
 
 	toggled = TRUE
-	duration_length = 4 TURNS
 
 /datum/discipline_power/auspex/the_spirits_touch/activate()
 	. = ..()
-
-	var/datum/atom_hud/health_hud = GLOB.huds[DATA_HUD_MEDICAL_ADVANCED]
-	health_hud.add_hud_to(owner)
 
 	owner.auspex_examine = TRUE
 
@@ -90,9 +86,6 @@
 
 /datum/discipline_power/auspex/the_spirits_touch/deactivate()
 	. = ..()
-
-	var/datum/atom_hud/health_hud = GLOB.huds[DATA_HUD_MEDICAL_ADVANCED]
-	health_hud.remove_hud_from(owner)
 
 	owner.auspex_examine = FALSE
 
