@@ -18,15 +18,13 @@
 
 	level = 1
 	check_flags = DISC_CHECK_CONSCIOUS
-	vitae_cost = 1
-	duration_length = 4 TURNS
+	vitae_cost = 0
 
 	toggled = TRUE
 
 /datum/discipline_power/auspex/heightened_senses/activate()
 	. = ..()
 
-	ADD_TRAIT(owner, TRAIT_THERMAL_VISION, TRAIT_GENERIC)
 	ADD_TRAIT(owner, TRAIT_NIGHT_VISION, TRAIT_GENERIC)
 
 	owner.update_sight()
@@ -34,7 +32,6 @@
 /datum/discipline_power/auspex/heightened_senses/deactivate()
 	. = ..()
 
-	REMOVE_TRAIT(owner, TRAIT_THERMAL_VISION, TRAIT_GENERIC)
 	REMOVE_TRAIT(owner, TRAIT_NIGHT_VISION, TRAIT_GENERIC)
 
 	owner.update_sight()
@@ -79,7 +76,7 @@
 	vitae_cost = 1
 
 	toggled = TRUE
-	duration_length = 2 TURNS
+	duration_length = 4 TURNS
 
 /datum/discipline_power/auspex/the_spirits_touch/activate()
 	. = ..()
