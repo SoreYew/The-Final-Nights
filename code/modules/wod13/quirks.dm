@@ -309,19 +309,6 @@ Dancer
 		else
 			passport.owner = random_unique_name(debtor.gender)
 
-/datum/quirk/potent_blood
-	name = "Potent Blood"
-	desc = "There's some spark of vital life in your veins. Vampires gain extra blood points for feeding off of you."
-	mob_trait = TRAIT_POTENT_BLOOD
-	value = -2
-	gain_text = "<span class='warning'>Vim runs through you.</span>"
-	lose_text = "<span class='notice'>You feel subtly enervated.</span>"
-	allowed_species = list("Ghoul","Human")
-
-/datum/quirk/potent_blood/on_spawn()
-	var/mob/living/carbon/H = quirk_holder
-	H.bloodquality = BLOOD_QUALITY_POTENT
-
 /datum/quirk/organovore
 	name = "Organovore"
 	desc = "For one reason or another, blood doesn't sate your hunger. Organs will, though."
